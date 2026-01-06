@@ -57,16 +57,51 @@ Das Pflichtenheft wird vom Auftragnehmer erstellt und beschreibt, wie die im Las
 definierten Anforderungen umgesetzt werden. Es enthält konkrete technische Lösungen, 
 Verfahren und Vorgehensweisen, um die Anforderungen zu erfüllen.
 
-Netzplan
+
+## Netzplan
+
 Nach DIN 69 900 ist ein Netzplan wie folgt definiert:
-Ein Netzplan ist eine grafische oder tabellarische Darstellung einer Ablaufstruktur, die aus 
-Vorgängen bzw. Ereignissen und Anordnungsbeziehungen besteht.
-Ein solcher Netzplan hilft, eine Terminplanung zu bilden.
-Es hilft, eine Gesamtdauer des Projektes festzulegen und eine zeitliche und logische Abfolge 
-der Vorgänge im Projekt zu definieren.
-Hierraus können sich dann kritische Pfade und Vorgänge identifizieren, die essenziell wichtig 
-für das geplante Projektende sind und hilft, Puffer und Zeitreserven herauszufinden.
-FAZ         FEZ
+
+Ein Netzplan ist eine grafische oder tabellarische Darstellung einer Ablaufstruktur, die aus Vorgängen bzw. Ereignissen und Anordnungsbeziehungen besteht.
+
+Ein solcher Netzplan hilft, eine Terminplanung zu bilden. Er ermöglicht es, eine Gesamtdauer des Projektes festzulegen und eine zeitliche sowie logische Abfolge der Vorgänge zu definieren. Hieraus können kritische Pfade und Vorgänge identifiziert werden, die essenziell für das geplante Projektende sind, und es hilft, Puffer und Zeitreserven zu ermitteln.
+
+### Netzplan-Notation
+
+```
+    FAZ    FEZ
+Vorgang |Beschreibung|
+    | Dauer GP FP |
+    SAZ    SEZ
+```
+
+### Definitionen
+
+| Begriff | Definition |
+|---------|------------|
+| Vorgang | Vorgangs-ID (A, B, C, ...) |
+| Dauer | Dauer in Arbeitstagen |
+| FAZ | Frühester Anfangszeitpunkt |
+| FEZ | Frühester Endzeitpunkt |
+| SAZ | Spätester Anfangszeitpunkt |
+| SEZ | Spätester Endzeitpunkt |
+| GP | Gesamtpuffer (GP = SAZ – FAZ oder GP = SEZ – FEZ) |
+| FP | Freier Puffer (FP = FAZ des Nachfolgers – FEZ des Vorgangs) |
+
+### Berechnungsmethoden
+
+**Vorwärtsrechnung:** Prozess beginnt mit dem Startpunkt des Projekts und arbeitet nach vorne.
+
+**Beispiel:**
+- Aufgabe A: 3 Tage, keine Vorgänger → FAZ = Tag 1, FEZ = Tag 3
+- Aufgabe B: 5 Tage, abhängig von A → FAZ = Tag 4, FEZ = Tag 8
+
+**Rückwärtsrechnung:** Spätester Start- und Endzeitpunkt, beginnend bei der letzten Aufgabe.
+
+**Beispiel:**
+- Gesamtdauer: 10 Tage
+- Aufgabe C: 5 Tage, letzter Vorgang → SEZ = Tag 10, SAZ = Tag 6
+
 |Vorgang | Beschreibung|
 |--------| -------------|
 |Dauer |GP |FP|
