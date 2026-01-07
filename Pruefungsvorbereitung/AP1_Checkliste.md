@@ -28,43 +28,43 @@
 **Wochenziel:** Netzplan-Berechnungen sicher beherrschen ✅
 
 ### Montag, 06.01.2026
-- [/] Projektmerkmale vs. Aufträge unterscheiden
-- [ ] Projektphasen kennen (Initiierung, Planung, Durchführung, Abschluss)
+- [x] Projektmerkmale vs. Aufträge unterscheiden
+- [x] Projektphasen kennen (Initiierung, Planung, Durchführung, Abschluss)
 - [ ] Notizen gemacht
 - [ ] 3 Karteikarten erstellt
 
 ### Dienstag, 07.01.2026
-- [ ] SMART-Prinzip verstanden (Spezifisch, Messbar, Attraktiv, Realistisch, Terminiert)
-- [ ] Lastenheft vs. Pflichtenheft unterscheiden
+- [x] SMART-Prinzip verstanden (Spezifisch, Messbar, Attraktiv, Realistisch, Terminiert)
+- [x] Lastenheft vs. Pflichtenheft unterscheiden
 - [ ] SMART-Ziele formuliert (3 Beispiele)
 - [ ] Notizen gemacht
 - [ ] 3 Karteikarten erstellt
 
 ### Mittwoch, 08.01.2026
-- [ ] Netzplantechnik Teil 1: FAZ, FEZ berechnen
+- [x] Netzplantechnik Teil 1: FAZ, FEZ berechnen
 - [ ] 5 einfache Netzplan-Aufgaben gerechnet
 - [ ] Formeln in Formelsammlung markiert
 - [ ] Notizen gemacht
 - [ ] 4 Karteikarten erstellt
 
 ### Donnerstag, 09.01.2026
-- [ ] Netzplantechnik Teil 2: SAZ, SEZ, GP, FP berechnen
-- [ ] Kritischer Pfad bestimmt
-- [ ] 5 mittelschwere Netzplan-Aufgaben gerechnet
+- [x] Netzplantechnik Teil 2: SAZ, SEZ, GP, FP berechnen
+- [x] Kritischer Pfad bestimmt
+- [x] 5 mittelschwere Netzplan-Aufgaben gerechnet
 - [ ] Notizen gemacht
 - [ ] 4 Karteikarten erstellt
 
 ### Freitag, 10.01.2026
-- [ ] Gantt-Diagramm lesen
-- [ ] Gantt-Diagramm erstellen (1 Beispiel)
-- [ ] Meilensteine verstanden
+- [x] Gantt-Diagramm lesen
+- [x] Gantt-Diagramm erstellen (1 Beispiel)
+- [x] Meilensteine verstanden
 - [ ] Notizen gemacht
 - [ ] 3 Karteikarten erstellt
 
 ### Samstag, 11.01.2026
-- [ ] Scrum-Rollen (Product Owner, Scrum Master, Team)
-- [ ] Scrum-Artefakte (Product Backlog, Sprint Backlog, Increment)
-- [ ] Scrum vs. Wasserfall Unterschiede
+- [x] Scrum-Rollen (Product Owner, Scrum Master, Team)
+- [x] Scrum-Artefakte (Product Backlog, Sprint Backlog, Increment)
+- [x] Scrum vs. Wasserfall Unterschiede
 - [ ] Notizen gemacht
 - [ ] 5 Karteikarten erstellt
 
@@ -81,8 +81,8 @@
 **Wochenziel:** Nutzwertanalyse berechnen können ✅
 
 ### Montag, 13.01.2026
-- [ ] Marktformen unterscheiden (Monopol, Oligopol, Polypol)
-- [ ] Marktformen-Beispiele zuordnen
+- [x] Marktformen unterscheiden (Monopol, Oligopol, Polypol)
+- [x] Marktformen-Beispiele zuordnen
 - [ ] Notizen gemacht
 - [ ] 3 Karteikarten erstellt
 
