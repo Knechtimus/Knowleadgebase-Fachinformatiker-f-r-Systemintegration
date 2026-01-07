@@ -1,0 +1,120 @@
+---
+id: ap1h_2022_a4_solution_vrbanic
+title: AP1 Herbst 2022 Aufgabe 4 Lösung Vrbanic
+description: Lösung zur AP1 im Herbst 2022 Aufgabe 4
+---
+
+# AP1 Fruehjahr 2022 Aufgabe 2 Lösung
+#### Von [Vrbanic](<../../../../user/Auszubildende Michel/vrbanic.md>)
+
+----
+
+## Aufgabe 4 - SQL und Diagramme - 24 Punkte:
+### Aufgabe 4a) - Walzanlage
+![Aufgabe 4a Aufgabenstellung](../images/AP1_2022_Herbst_Aufgabe4a_Aufgabenstellung.png)
+### Aufgabe 4aa) - Output ohne ID - 3 Punkte
+![Aufgabe 4aa](../images/AP1_2022_Herbst_Aufgabe4aa.png)
+### Aufgabe 4ab) - Spezfizierte Dicke - 4 Punkte
+![Aufgabe 4ab](../images/AP1_2022_Herbst_Aufgabe4ab.png)
+### Aufgabe 4ac) - Produktionsanzahl - 4 Punkte
+![Aufgabe 4ac](../images/AP1_2022_Herbst_Aufgabe4ac.png)
+### Aufgabe 4b) - Struktogramm - 7 Punkte
+![Aufgabe 4b](../images/AP1_2022_Herbst_Aufgabe4b.png)
+### Aufgabe 4b Vorlage) - Struktogramm Vorlage
+![Aufgabe 4b Vorgabe](../images/AP1_2022_Herbst_Aufgabe4b_Vorgabe.png)
+### Aufgabe 4c) - Entity-Relationship-Modell - 6 Punkte
+![Aufgabe 4c](../images/AP1_2022_Herbst_Aufgabe4c.png)
+### Aufgabe 4c Vorlage) - Entity-Relationship-Modell Vorlage
+![Aufgabe 4c Vorgabe](../images/AP1_2022_Herbst_Aufgabe4c_Vorgabe.png)
+
+----
+
+## Lösung zur Aufgabe 4:
+### Aufgabe 4aa)
+SELECT Width, Length, Thickness, Quantity FROM ProductionData WHERE OrderID = 736298;
+
+### Aufgabe 4ab)
+SELECT COUNT(*) FROM ProductionData WHERE Thickness = 2;
+
+### Aufgabe 4ac)
+SELECT SUM(Quantity) FROM ProductionData WHERE Thickness = 2 AND Width = 200 AND Length = 300;
+
+### Aufgabe 4b)
+![Aufgabe 4b Solution](../images/solution/AP1_2022_Herbst_Aufgabe4b_Solution_Vrbanic.png)
+
+### Aufgabe 4c)
+![Aufgabe 4c Solution](../images/solution/AP1_2022_Herbst_Aufgabe4c_Solution_Vrbanic.png)
+
+----
+
+## Selbsterstellte Aufgabe:
+###### Selbsterstellte Aufgabe Vrbanic
+### Aufgabe Xa)
+>**Xa)** Sie erhalten den Auftrag sich um die Lagerverwaltung einer Firma zu kümmern. Die Lagerdaten werden in einer SQL-Datenbank gespeichert. Zahlen wurden als Ganzzahlen eingetragen.
+>
+>Die Tabelle ProductList hat folgenden Aufbau
+>
+>>ProductID (PK)
+>>Productname
+>>Stock
+>>Minimumstock
+>>Supplier
+
+### Aufgabe Xaa)
+>**Xaa)** Finden sie alle Produkte, deren Lagerbestand unter dem Mindestbestand liegt.
+>
+> Geben sie dazu den entsprechenden SQL-Befehl an.
+
+### Aufgabe Xab)
+>**Xab)** Bestimme die Gesamtzahl an Produkten des Lieferanten "Firefly".
+>
+> Geben sie dazu den entsprechenden SQL-Befehl an.
+
+### Aufgabe Xac)
+>**Xac)** Bereche den durchschnittlichen Lagerbestand aller Produkte.
+>
+> Geben sie dazu den entsprechenden SQL-Befehl an.
+
+### Aufgabe Xad)
+>**Xad)** Der Mindestbestand für alle Produkte wird um 5 erhöht.
+>
+> Geben sie dazu den entsprechenden SQL-Befehl an.
+
+### Aufgabe Xae)
+>**Xae)** Es wurde das Produkt mit der ID '42' aus dem Sortiment genommen und nun muss die Datenbank angepasst werden.
+>
+> Geben sie dazu den entsprechenden SQL-Befehl an.
+
+### Aufgabe Xb)
+>**Xb)** Erstellen sie ein Struktogramm für die Erfassung einer Produktliste die besagt welche Produkte unter ihrem Mindestwert sind. Die Firma besitzt zurzeit 26 verschiedene Produkte.
+>
+> Erstellen sie die Funktion createOrderList(products[])
+>
+> **fetchMinStock(int)** - Übergeben wird ein Produkt. Gibt den Minimumswert eines Produkts wieder.
+> 
+> **fetchStock(int)** - Übergeben wird ein Produkt. Gibt den momentanen Inventarstand wieder.
+>
+> Ergänzen sie das gegebene Struktogramm durch die entsprechenden Befehle um eine Liste zum Bestellen von Produkten zu erstellen.
+
+![Aufgabe 4c](../images/AP1_2022_Herbst_Vrbanic_TaskXb.png)
+
+----
+
+## Lösung zur Selbsterstellten Aufgabe:
+### Aufgabe Xaa)
+SELECT `ProductID` FROM `ProductList` WHERE `Stock` < `Minimumstock`;
+
+### Aufgabe Xab)
+SELECT COUNT(`ProductID`) FROM `ProductList` WHERE `Supplier` = 'Firefly';
+
+### Aufgabe Xac)
+SELECT AVG(`Stock`) FROM `ProductList`;
+
+### Aufgabe Xad)
+UPDATE `ProductList` SET `Minimumstock` = `Minimumstock` + 5;
+
+### Aufgabe Xae)
+DELETE FROM `ProductList` WHERE `ProductID` = '42';
+
+### Aufgabe Xb)
+![Aufgabe Xb](../images/solution/AP1_2022_Herbst_Vrbanic_TaskXb_Solution.png)
