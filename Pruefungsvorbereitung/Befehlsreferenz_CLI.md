@@ -184,26 +184,139 @@
 | `gzip <Datei>` | Datei komprimieren |
 | `gunzip <Datei.gz>` | Datei entpacken |
 
-## Netzwerk-Befehle (Universal)
+## 🔄 Windows vs. Linux - Vergleichstabelle
 
-### Diagnose-Befehle
+**Für die Prüfung wichtig:** Befehle vergleichen können! 🔴
 
-| Befehl | Betriebssystem | Beschreibung |
-|--------|----------------|--------------|
-| `ping <Host>` | Windows/Linux | ICMP Echo Request |
-| `tracert <Host>` | Windows | Route verfolgen |
-| `traceroute <Host>` | Linux | Route verfolgen |
-| `pathping <Host>` | Windows | Kombiniert ping und tracert |
-| `nslookup <Domain>` | Windows/Linux | DNS-Abfrage |
-| `dig <Domain>` | Linux | Erweiterte DNS-Abfrage |
-| `arp -a` | Windows/Linux | ARP-Cache anzeigen |
-| `netstat -an` | Windows/Linux | Netzwerkverbindungen |
-| `telnet <Host> <Port>` | Windows/Linux | Port-Test |
-| `nc -zv <Host> <Port>` | Linux | Port-Scanner (netcat) |
+### Dateisystem-Befehle
+
+| Aktion | Windows (CMD) | Linux (Bash) | Beschreibung |
+|--------|---------------|--------------|--------------|
+| Verzeichnis auflisten | `dir` | `ls` / `ls -la` | Dateien anzeigen |
+| Verzeichnis wechseln | `cd <Pfad>` | `cd <Pfad>` | Navigation |
+| Aktuelles Verzeichnis | `cd` | `pwd` | Wo bin ich? |
+| Verzeichnis erstellen | `mkdir <Name>` | `mkdir <Name>` | Ordner anlegen |
+| Datei löschen | `del <Datei>` | `rm <Datei>` | Datei entfernen |
+| Verzeichnis löschen | `rmdir <Name>` | `rm -r <Name>` | Ordner löschen |
+| Datei kopieren | `copy <Q> <Z>` | `cp <Q> <Z>` | Kopie erstellen |
+| Datei verschieben | `move <Q> <Z>` | `mv <Q> <Z>` | Datei bewegen |
+| Datei umbenennen | `ren <Alt> <Neu>` | `mv <Alt> <Neu>` | Namen ändern |
+| Datei anzeigen | `type <Datei>` | `cat <Datei>` | Inhalt ausgeben |
+| Datei suchen | `dir /s <Name>` | `find / -name <Name>` | Datei finden |
+| Text suchen | `findstr <Text>` | `grep <Text>` | Inhalt durchsuchen |
+
+### Netzwerk-Diagnose
+
+| Aktion | Windows | Linux | Beschreibung |
+|--------|---------|-------|--------------|
+| IP-Konfiguration anzeigen | `ipconfig` | `ip a` / `ifconfig` | IP-Adresse anzeigen |
+| IP-Details anzeigen | `ipconfig /all` | `ip addr show` | Detaillierte Info |
+| IP-Adresse freigeben | `ipconfig /release` | `dhclient -r` | DHCP-Lease freigeben |
+| IP-Adresse erneuern | `ipconfig /renew` | `dhclient` | DHCP neu anfragen |
+| DNS-Cache leeren | `ipconfig /flushdns` | `systemd-resolve --flush-caches` | DNS zurücksetzen |
+| Erreichbarkeit testen | `ping <Host>` | `ping <Host>` | ICMP-Test |
+| Route verfolgen | `tracert <Host>` | `traceroute <Host>` | Weg zum Ziel |
+| DNS-Abfrage | `nslookup <Domain>` | `nslookup <Domain>` / `dig <Domain>` | DNS auflösen |
+| ARP-Tabelle | `arp -a` | `arp -a` / `ip neigh` | MAC-Zuordnung |
+| Routing-Tabelle | `route print` | `ip route` / `route -n` | Routen anzeigen |
+| Netzwerkverbindungen | `netstat -an` | `netstat -tulpn` / `ss -tulpn` | Offene Ports |
+
+### System & Prozesse
+
+| Aktion | Windows | Linux | Beschreibung |
+|--------|---------|-------|--------------|
+| Systeminformationen | `systeminfo` | `uname -a` | Systemdetails |
+| Prozesse anzeigen | `tasklist` | `ps aux` | Laufende Prozesse |
+| Prozess beenden | `taskkill /PID <PID>` | `kill <PID>` | Prozess stoppen |
+| Dienste anzeigen | `sc query` | `systemctl list-units` | Services auflisten |
+| Dienst starten | `net start <Name>` | `systemctl start <Name>` | Service starten |
+| Dienst stoppen | `net stop <Name>` | `systemctl stop <Name>` | Service stoppen |
+| Festplatte anzeigen | `wmic logicaldisk get size,freespace` | `df -h` | Speicherplatz |
+| Aktueller Benutzer | `whoami` | `whoami` | Username anzeigen |
+| System herunterfahren | `shutdown /s` | `shutdown -h now` | Ausschalten |
+| System neu starten | `shutdown /r` | `shutdown -r now` / `reboot` | Neustart |
+
+### Berechtigungen & Besitz
+
+| Aktion | Windows | Linux | Beschreibung |
+|--------|---------|-------|--------------|
+| Berechtigungen anzeigen | `icacls <Datei>` | `ls -l <Datei>` | ACL/Permissions |
+| Berechtigungen ändern | `icacls <Datei> /grant` | `chmod 755 <Datei>` | Rechte setzen |
+| Besitzer ändern | `takeown /f <Datei>` | `chown <User> <Datei>` | Ownership |
+| Ausführbar machen | (nicht nötig) | `chmod +x <Datei>` | Script ausführbar |
+
+### Nützliche Zusatzbefehle
+
+| Aktion | Windows | Linux | Beschreibung |
+|--------|---------|-------|--------------|
+| Hilfe anzeigen | `<Befehl> /?` | `man <Befehl>` / `<Befehl> --help` | Befehlshilfe |
+| Befehlshistorie | `doskey /history` | `history` | Letzte Befehle |
+| Ausgabe umleiten | `<Befehl> > datei.txt` | `<Befehl> > datei.txt` | In Datei schreiben |
+| Ausgabe anhängen | `<Befehl> >> datei.txt` | `<Befehl> >> datei.txt` | An Datei anhängen |
+| Pipe (Verkettung) | `<Befehl1> | <Befehl2>` | `<Befehl1> | <Befehl2>` | Befehle verbinden |
+
+---
+
+## 📝 Wichtige Hinweise für die Prüfung
+
+### Häufige Prüfungsfragen
+
+1. **"Welcher Befehl zeigt die IP-Konfiguration an?"**
+   - Windows: `ipconfig`
+   - Linux: `ip a` oder `ifconfig`
+
+2. **"Wie testet man die Erreichbarkeit eines Hosts?"**
+   - Beide: `ping <Host>`
+
+3. **"Wie setzt man Linux-Berechtigungen?"**
+   - `chmod 755 datei.sh` (rwxr-xr-x)
+   - `chmod +x datei.sh` (ausführbar machen)
+
+4. **"Wie zeigt man Netzwerkverbindungen an?"**
+   - Windows: `netstat -an`
+   - Linux: `netstat -tulpn` oder `ss -tulpn`
+
+5. **"Wie startet man einen Dienst?"**
+   - Windows: `net start <Dienst>`
+   - Linux: `systemctl start <Dienst>`
+
+### Linux-Berechtigungen (chmod)
+
+```
+rwx rwx rwx  (r=read, w=write, x=execute)
+│   │   │
+│   │   └── Andere (others)
+│   └────── Gruppe (group)
+└────────── Besitzer (owner)
+
+Zahlenwerte:
+r = 4
+w = 2
+x = 1
+
+Beispiele:
+755 = rwxr-xr-x (Besitzer: alles, Gruppe/Andere: lesen+ausführen)
+644 = rw-r--r-- (Besitzer: lesen+schreiben, Gruppe/Andere: nur lesen)
+700 = rwx------ (Nur Besitzer hat alle Rechte)
+```
+
+---
 
 ## Quellen
 
-- [ ] Noch keine Quellen
+- [05_Betriebssysteme/Windows](../05_Betriebssysteme/Windows/)
+- [05_Betriebssysteme/Linux](../05_Betriebssysteme/Linux/)
+- Microsoft Documentation
+- Linux man pages
+
+---
+
+## 🔗 Navigation
+
+- [Zum Lernplan](./AP1_Lernplan.md)
+- [Zur AP1 Checkliste](./AP1_Checkliste.md)
+- [Zur Formelsammlung](./Formelsammlung.md)
+- [Zum Abkürzungsverzeichnis](./Abkuerzungsverzeichnis.md)
 
 ---
 [↩ Zurück zur Übersicht](../README.md) | [Vorheriges Thema](Formelsammlung.md) | [Nächstes Thema](Abkuerzungsverzeichnis.md)

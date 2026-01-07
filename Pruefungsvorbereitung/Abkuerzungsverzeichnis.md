@@ -210,6 +210,7 @@
 | Abkürzung | Bedeutung |
 |-----------|-----------|
 | VLAN | Virtual Local Area Network |
+| VLSM | Variable Length Subnet Mask |
 | VM | Virtual Machine |
 | VPN | Virtual Private Network |
 | VRAM | Video Random Access Memory |
@@ -218,12 +219,61 @@
 
 | Abkürzung | Bedeutung |
 |-----------|-----------|
+| WAF | Web Application Firewall |
 | WAN | Wide Area Network |
 | WLAN | Wireless Local Area Network |
+| WORM | Write Once Read Many |
+
+## X
+
+| Abkürzung | Bedeutung |
+|-----------|-----------|
+| XFS | X File System |
+| XML | Extensible Markup Language |
+
+---
+
+## 🔥 TOP 20 - Wichtigste Abkürzungen für AP1
+
+**Diese MÜSSEN sitzen! 🔴**
+
+1. **CIA** - Confidentiality, Integrity, Availability (Schutzziele)
+2. **DSGVO** - Datenschutz-Grundverordnung
+3. **TOM** - Technische und Organisatorische Maßnahmen
+4. **OSI** - Open Systems Interconnection (7-Schichten-Modell)
+5. **TCP** - Transmission Control Protocol
+6. **IP** - Internet Protocol
+7. **DHCP** - Dynamic Host Configuration Protocol
+8. **DNS** - Domain Name System
+9. **CIDR** - Classless Inter-Domain Routing
+10. **ARP** - Address Resolution Protocol
+11. **RAID** - Redundant Array of Independent Disks
+12. **VPN** - Virtual Private Network
+13. **VLAN** - Virtual Local Area Network
+14. **HTTP/HTTPS** - Hypertext Transfer Protocol (Secure)
+15. **SSH** - Secure Shell
+16. **SMART** - Specific, Measurable, Achievable, Relevant, Time-bound
+17. **IaaS/PaaS/SaaS** - Infrastructure/Platform/Software as a Service
+18. **FAZ/FEZ/SAZ/SEZ** - Netzplantechnik Zeitpunkte
+19. **GP/FP** - Gesamt-/Freier Puffer
+20. **SQL** - Structured Query Language
+
+---
 
 ## Quellen
 
-- [ ] Noch keine Quellen
+- [09_IT_Sicherheit](../09_IT_Sicherheit/)
+- [10_Datenschutz](../10_Datenschutz/)
+- [04_Netzwerktechnik](../04_Netzwerktechnik/)
+
+---
+
+## 🔗 Navigation
+
+- [Zum Lernplan](./AP1_Lernplan.md)
+- [Zur AP1 Checkliste](./AP1_Checkliste.md)
+- [Zur Formelsammlung](./Formelsammlung.md)
+- [Zur Befehlsreferenz](./Befehlsreferenz_CLI.md)
 
 ---
 [↩ Zurück zur Übersicht](../README.md) | [Vorheriges Thema](Befehlsreferenz_CLI.md)

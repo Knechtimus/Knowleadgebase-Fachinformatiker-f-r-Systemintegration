@@ -48,30 +48,67 @@
 
 ## Subnetting-Formeln
 
-### IPv4 Subnetting
+### IPv4 Subnetting - Die wichtigsten Formeln! 🔴
 
-| Formel | Beschreibung |
-|--------|--------------|
-| Anzahl Subnetze = 2^n | n = Anzahl der geliehenen Bits |
-| Anzahl Hosts = 2^h - 2 | h = Anzahl der Host-Bits |
-| Subnetzmaske = 255.255.255.x | x basierend auf CIDR |
+```
+Anzahl verfügbarer Hosts = 2^(32 - Präfixlänge) - 2
+Anzahl Subnetze = 2^(geliehene Bits)
 
-### CIDR-Notation
+Netzadresse = Erste IP-Adresse im Subnetz
+Broadcast-Adresse = Letzte IP-Adresse im Subnetz
+Erste nutzbare IP = Netzadresse + 1
+Letzte nutzbare IP = Broadcast-Adresse - 1
+```
 
-| CIDR | Subnetzmaske | Hosts |
-|------|--------------|-------|
-| /24 | 255.255.255.0 | 254 |
-| /25 | 255.255.255.128 | 126 |
-| /26 | 255.255.255.192 | 62 |
-| /27 | 255.255.255.224 | 30 |
-| /28 | 255.255.255.240 | 14 |
-| /29 | 255.255.255.248 | 6 |
-| /30 | 255.255.255.252 | 2 |
+**Beispiel:**
+- 192.168.1.0/26
+- Hosts: 2^(32-26) - 2 = 2^6 - 2 = 64 - 2 = **62 nutzbare Hosts**
+- Netzadresse: 192.168.1.0
+- Broadcast: 192.168.1.63
+- Erste nutzbare IP: 192.168.1.1
+- Letzte nutzbare IP: 192.168.1.62
+
+### CIDR-Notation (AUSWENDIG LERNEN!)
+
+| CIDR | Subnetzmaske | Binär (letzte 8 Bit) | Hosts (nutzbar) | Hosts (total) |
+|------|--------------|----------------------|-----------------|---------------|
+| /24 | 255.255.255.0 | 00000000 | 254 | 256 |
+| /25 | 255.255.255.128 | 10000000 | 126 | 128 |
+| /26 | 255.255.255.192 | 11000000 | 62 | 64 |
+| /27 | 255.255.255.224 | 11100000 | 30 | 32 |
+| /28 | 255.255.255.240 | 11110000 | 14 | 16 |
+| /29 | 255.255.255.248 | 11111000 | 6 | 8 |
+| /30 | 255.255.255.252 | 11111100 | 2 | 4 |
+| /31 | 255.255.255.254 | 11111110 | 2 (Punkt-zu-Punkt) | 2 |
+| /32 | 255.255.255.255 | 11111111 | 1 (Host-Route) | 1 |
+
+### Erweiterte CIDR-Tabelle (alle Klassen)
+
+| CIDR | Subnetzmaske | Netzwerke (Klasse C) | Hosts |
+|------|--------------|----------------------|-------|
+| /8 | 255.0.0.0 | 1 × Klasse A | 16.777.214 |
+| /16 | 255.255.0.0 | 1 × Klasse B | 65.534 |
+| /17 | 255.255.128.0 | 2 × /17 | 32.766 |
+| /18 | 255.255.192.0 | 4 × /18 | 16.382 |
+| /19 | 255.255.224.0 | 8 × /19 | 8.190 |
+| /20 | 255.255.240.0 | 16 × /20 | 4.094 |
+| /21 | 255.255.248.0 | 32 × /21 | 2.046 |
+| /22 | 255.255.252.0 | 64 × /22 | 1.022 |
+| /23 | 255.255.254.0 | 128 × /23 | 510 |
+
+### Subnetz-Schrittweite berechnen
+
+**Formel:** Schrittweite = 256 - Oktettwert der Subnetzmaske
+
+**Beispiel:**
+- /26 = 255.255.255.192
+- Schrittweite = 256 - 192 = **64**
+- Subnetze: 0, 64, 128, 192
 
 ### Netzwerk-Berechnung
 
-- **Netzadresse**: Erste IP im Subnetz (Host-Teil = 0)
-- **Broadcast-Adresse**: Letzte IP im Subnetz (Host-Teil = 1)
+- **Netzadresse**: Erste IP im Subnetz (Host-Teil = alle Bits 0)
+- **Broadcast-Adresse**: Letzte IP im Subnetz (Host-Teil = alle Bits 1)
 - **Erste nutzbare IP**: Netzadresse + 1
 - **Letzte nutzbare IP**: Broadcast-Adresse - 1
 
@@ -88,6 +125,33 @@
 
 ## Wirtschaftlichkeitsrechnung
 
+### Nutzwertanalyse 🔴
+
+**Grundformel:**
+```
+Gewichtete Punktzahl = Punkte × Gewichtung
+Gesamtnutzwert = Summe aller gewichteten Punktzahlen
+```
+
+**Vorgehen:**
+1. Kriterien definieren
+2. Gewichtung festlegen (Summe = 100% oder 1,0)
+3. Alternativen bewerten (z.B. 1-10 Punkte)
+4. Gewichtete Punktzahlen berechnen
+5. Gesamtnutzwert ermitteln
+6. Alternative mit höchstem Nutzwert wählen
+
+**Beispiel:**
+
+| Kriterium | Gewichtung | Alternative A | Gewichtet A | Alternative B | Gewichtet B |
+|-----------|------------|---------------|-------------|---------------|-------------|
+| Preis | 40% | 8 | 3,2 | 6 | 2,4 |
+| Leistung | 30% | 7 | 2,1 | 9 | 2,7 |
+| Qualität | 30% | 9 | 2,7 | 7 | 2,1 |
+| **Gesamt** | **100%** | - | **8,0** | - | **7,2** |
+
+**Entscheidung:** Alternative A (höherer Nutzwert)
+
 ### Kostenrechnung
 
 | Formel | Beschreibung |
@@ -95,12 +159,30 @@
 | Gesamtkosten = Fixkosten + Variable Kosten | Vollkosten |
 | Stückkosten = Gesamtkosten / Menge | Kosten pro Einheit |
 | DB = Erlös - Variable Kosten | Deckungsbeitrag |
+| DB% = (DB / Erlös) × 100% | Deckungsbeitragsquote |
+
+### Angebotsvergleich
+
+**Gesamtkosten über Nutzungsdauer:**
+```
+Gesamtkosten = Anschaffungskosten + (Laufende Kosten × Nutzungsjahre)
+```
+
+**Beispiel:**
+- Alternative A: 10.000 € Kauf + (500 €/Jahr × 5 Jahre) = 12.500 €
+- Alternative B: 2.000 € Kauf + (2.500 €/Jahr × 5 Jahre) = 14.500 €
+- **Entscheidung:** Alternative A günstiger
 
 ### Amortisation
 
 | Formel | Beschreibung |
 |--------|--------------|
 | Amortisationszeit = Investition / Jährliche Einsparung | Rückflusszeit |
+
+**Beispiel:**
+- Investition: 30.000 €
+- Jährliche Einsparung: 10.000 €
+- Amortisationszeit: 30.000 / 10.000 = **3 Jahre**
 
 ## RAID-Level
 
@@ -130,7 +212,18 @@
 
 ## Quellen
 
-- [ ] Noch keine Quellen
+- [01_Projektmanagement](../01_Projektmanagement/)
+- [04_Netzwerktechnik](../04_Netzwerktechnik/)
+- [12_Wirtschaft_Recht](../12_Wirtschaft_Recht/)
+
+---
+
+## 🔗 Navigation
+
+- [Zum Lernplan](./AP1_Lernplan.md)
+- [Zur AP1 Checkliste](./AP1_Checkliste.md)
+- [Zu Ressourcen und Links](./Ressourcen_und_Links.md)
+- [Zur Befehlsreferenz](./Befehlsreferenz_CLI.md)
 
 ---
 [↩ Zurück zur Übersicht](../README.md) | [Vorheriges Thema](AP2_Checkliste.md) | [Nächstes Thema](Befehlsreferenz_CLI.md)
