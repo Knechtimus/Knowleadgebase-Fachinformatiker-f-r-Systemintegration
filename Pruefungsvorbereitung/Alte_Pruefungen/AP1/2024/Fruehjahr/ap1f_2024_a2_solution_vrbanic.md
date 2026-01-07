@@ -4,7 +4,7 @@ title: AP1 Frühjahr 2024 Aufgabe 2 Lösung Vrbanic
 description: Lösung zur AP1 im Frühjahr 2024 Aufgabe 2
 ---
 
-# AP1 Fruehjahr 2022 Aufgabe 2 Lösung
+# AP1 Fruehjahr 2024 Aufgabe 2 Lösung
 #### Von [Vrbanic](<../../../../user/Auszubildende Michel/vrbanic.md>)
 
 ----
@@ -160,7 +160,7 @@ IPv4 trennt Nummernblöcke mit einem Punkt
 IPv6 trennt Nummernblöcke mit einem Doppelpunkt
 
 **Sicherheit**
-IPv4 erforder zusätzliche Sicherheitsmaßnahmen
+IPv4 erfordert zusätzliche Sicherheitsmaßnahmen
 IPv6 besitzt integrierte Sicherheitsfunktionen (IPsec)
 
 **NAT**
