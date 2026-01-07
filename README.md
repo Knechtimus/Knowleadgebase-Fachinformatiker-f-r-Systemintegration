@@ -28,7 +28,7 @@ Strukturierte Sammlung aller prüfungsrelevanten Inhalte mit:
 9. [🔒 IT-Sicherheit](./09_IT_Sicherheit/) - Schutzziele, Verschlüsselung, Firewalls
 10. [🛡️ Datenschutz](./10_Datenschutz/) - DSGVO, BDSG, TOM
 11. [⚙️ Qualitätsmanagement](./11_Qualitaetsmanagement/) - QM, ITIL, PDCA
-12. [💼 Wirtschaft & Recht](./12_Wirtschaft_Recht/) - Vertragsrecht, Kostenrechnung
+12. [💼 Wirtschaft & Soziales](./12_Wirtschaft_und_Soziales/) - Vertragsarten, Marktformen, Kalkulation, Investitionsrechnung
 13. [🏢 Systemintegration Spezifisch](./13_Systemintegration_Spezifisch/) - RZ, Monitoring, Dienste (AP2)
 14. [📝 Prüfungsvorbereitung](./Pruefungsvorbereitung/) - Checklisten, Formeln, Alte Prüfungen
 
@@ -47,7 +47,7 @@ Strukturierte Sammlung aller prüfungsrelevanten Inhalte mit:
 | 09 | IT-Sicherheit | 15 | AP1 + AP2 | ⭐⭐⭐ Sehr Hoch |
 | 10 | Datenschutz | 6 | AP1 + AP2 | ⭐⭐⭐ Hoch |
 | 11 | Qualitätsmanagement | 8 | AP1 + AP2 | ⭐⭐ Mittel |
-| 12 | Wirtschaft & Recht | 9 | AP1 + AP2 | ⭐⭐ Mittel |
+| 12 | Wirtschaft & Soziales | 13 | AP1 + AP2 | ⭐⭐ Mittel |
 | 13 | Systemintegration Spezifisch | 14 | AP2 | ⭐⭐⭐ Sehr Hoch |
 | 14 | Prüfungsvorbereitung | 4 + Unterordner | AP1 + AP2 | ⭐⭐⭐ Sehr Hoch |
 
@@ -89,7 +89,7 @@ Verfolge deinen Lernfortschritt durch die verschiedenen Themenbereiche:
 
 ### 💼 Wirtschaft & Qualität
 - [ ] 11 - Qualitätsmanagement (8 Themen)
-- [ ] 12 - Wirtschaft & Recht (9 Themen)
+- [ ] 12 - Wirtschaft & Soziales (13 Themen)
 
 ### 🏢 Systemintegration (AP2)
 - [ ] 13 - Systemintegration Spezifisch (14 Themen)
@@ -124,7 +124,7 @@ Verfolge deinen Lernfortschritt durch die verschiedenen Themenbereiche:
 ### Phase 4: Wirtschaft & Organisation (Wochen 9-10)
 1. **Datenschutz** - DSGVO, BDSG, TOM
 2. **Qualitätsmanagement** - ITIL, PDCA
-3. **Wirtschaft & Recht** - Vertragsrecht, Kostenrechnung
+3. **Wirtschaft & Soziales** - Vertragsarten, Marktformen, Wirtschaftssektoren, Kalkulation, Investitionsrechnung
 
 ### Phase 5: AP2 Vertiefung (Wochen 11-12)
 1. **Systemintegration Spezifisch** - RZ-Konzeption, Monitoring, Dienste
