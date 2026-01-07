@@ -221,15 +221,44 @@ Hier werden nach Abschluss eines Projektes oder einer Phase die wichtigsten Erke
 
 ## Prüfungsrelevante Inhalte
 
-<!-- TODO: Wichtige Prüfungspunkte ergänzen -->
+- **DIN 69901-5:** Merkmale eines Projekts (Einmaligkeit, Zielvorgabe, Begrenzungen, projektspezifische Organisation)
+- **Magisches Dreieck:** Zeit, Kosten, Qualität und deren Abhängigkeiten
+- **Projektstrukturplan:** Top-Down, Bottom-Up, Yo-Yo Methoden
+- **Lasten- vs. Pflichtenheft:** Wer erstellt was? (Auftraggeber vs. Auftragnehmer)
+- **Netzplantechnik:** FAZ, FEZ, SAZ, SEZ, GP, FP berechnen können
+- **Kritischer Pfad:** Vorgänge ohne Puffer identifizieren
+- **SMART-Prinzip:** Alle 5 Buchstaben mit Bedeutung
+- **Scrum:** Rollen (Scrum Master, Product Owner, Entwicklerteam), Artefakte, Events
+- **Wasserfallmodell vs. Agile:** Vor- und Nachteile beider Ansätze
+- **Teamphasen nach Tuckman:** Reihenfolge und Merkmale jeder Phase
 
 ## Beispiele / Praxisbezug
 
-<!-- TODO: Praktische Beispiele ergänzen -->
+**Beispiel IT-Projekt:** Migration eines Unternehmens auf Microsoft 365
+- **Lastenheft:** "E-Mail-System soll in die Cloud migriert werden, 500 Postfächer, max. 2h Downtime"
+- **Pflichtenheft:** "Migration erfolgt mittels Exchange Hybrid, Cutover am Wochenende, Testphase 2 Wochen"
+
+**Netzplan-Beispiel:**
+| Vorgang | Dauer | Vorgänger | FAZ | FEZ | SAZ | SEZ | GP |
+|---------|-------|-----------|-----|-----|-----|-----|-----|
+| A - Planung | 3 | - | 1 | 3 | 1 | 3 | 0 |
+| B - Beschaffung | 5 | A | 4 | 8 | 4 | 8 | 0 |
+| C - Dokumentation | 2 | A | 4 | 5 | 7 | 8 | 3 |
+| D - Installation | 4 | B,C | 9 | 12 | 9 | 12 | 0 |
+
+→ Kritischer Pfad: A → B → D (kein Puffer)
 
 ## Zusammenfassung
 
-<!-- TODO: Kurze Zusammenfassung -->
+Projektmanagement umfasst die strukturierte Planung, Durchführung und Kontrolle von Projekten. Kernelemente sind:
+
+1. **Projektdefinition** nach DIN 69901-5 mit klaren Merkmalen
+2. **Planungsinstrumente:** Projektstrukturplan, Netzplantechnik, Gantt-Diagramme
+3. **Dokumentation:** Lastenheft (WAS) → Pflichtenheft (WIE)
+4. **Vorgehensmodelle:** Klassisch (Wasserfall) vs. Agil (Scrum)
+5. **Teamführung:** Teamphasen nach Tuckman beachten
+6. **Zieldefinition:** SMART-Prinzip anwenden
+7. **Reflexion:** Lessons Learned für kontinuierliche Verbesserung
 
 ## Prüfungsfragen zum Üben
 
