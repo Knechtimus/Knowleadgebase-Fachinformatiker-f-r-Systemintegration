@@ -71,35 +71,35 @@ Wählen Sie aus den obenstehenden Begriffen drei aus und beschreiben Sie diese d
 ----
 
 ## Aufgabe 2 - Thema Hardwarekomponenten - 24 Punkte:
-![Aufgabe 2 Situation](image-5.png)
+![Aufgabe 2 Situation](images/Aufgabe_2_Situation.png)
 ### Aufgabe 2a) - CPU Einbau
-![Aufgabe 2a Aufgabenstellung](image-6.png)
+![Aufgabe 2a Aufgabenstellung](images/Aufgabe_2a_Aufgabenstellung.png)
 ### Aufgabe 2aa) - Drei Schritte zum Einbau - 3 Punkte
-![Aufgabe 2aa](image-7.png)
+![Aufgabe 2aa](images/Aufgabe_2aa.png)
 ### Aufgabe 2ab) - Achtsamkeitspunkte - 2 Punkte
-![Aufgabe 2ab](image-8.png)
+![Aufgabe 2ab](images/Aufgabe_2ab.png)
 ### Aufgabe 2b) - Wärmeleitpaste - 2 Punkte
-![Aufgabe 2b](image-9.png)
+![Aufgabe 2b](images/Aufgabe_2b.png)
 ### Aufgabe 2c) - Dual Channeling - 3 Punkte
-![Aufgabe 2c](image-10.png)
+![Aufgabe 2c](images/Aufgabe_2c.png)
 ### Aufgabe 2d) - M.2 SSD vs SATA SSD - 2 Punkte
-![Aufgabe 2d](image-11.png)
+![Aufgabe 2d](images/Aufgabe_2d.png)
 ### Aufgabe 2e) - Grafikkarten Schnittstellen - 3 Punkte
-![Aufgabe 2e](image-12.png)
+![Aufgabe 2e](images/Aufgabe_2e.png)
 ### Aufgabe 2f) - I/O Panel
-![Aufgabe 2f Aufgabenstellung](image-13.png)
+![Aufgabe 2f Aufgabenstellung](images/Aufgabe_2f_Aufgabenstellung.png)
 ### Aufgabe 2fa) - Eingerahmter USB Anschluss - 2 Punkte
-![Aufgabe 2fa](image-14.png)
+![Aufgabe 2fa](images/Aufgabe_2fa.png)
 ### Aufgabe 2fb) - USB-C vs USB-3 - 2 Punkte
-![Aufgabe 2fb](image-15.png)
+![Aufgabe 2fb](images/Aufgabe_2fb.png)
 ### Aufgabe 2g) - Taskmanager
-![Aufgabe 2g Aufgabenstellung](image-16.png)
+![Aufgabe 2g Aufgabenstellung](images/Aufgabe_2g_Aufgabenstellung.png)
 ### Aufgabe 2ga) - Logische Prozessoren - 2 Punkte
-![Aufgabe 2ga](image-17.png)
+![Aufgabe 2ga](images/Aufgabe_2ga.png)
 ### Aufgabe 2gb) - Cache - 2 Punkte
-![Aufgabe 2gb](image-18.png)
+![Aufgabe 2gb](images/Aufgabe_2gb.png)
 ### Aufgabe 2gc) - GHz zu Hertz - 1 Punkt
-![Aufgabe 2gc](image-19.png)
+![Aufgabe 2gc](images/Aufgabe_2gc.png)
 
 ----
 
@@ -133,7 +133,7 @@ Wählen Sie aus den obenstehenden Begriffen drei aus und beschreiben Sie diese d
 >**Xc)** Für was stehen diese Abkürzungen und was ist ein Vorteil und Nachteil einer SSD?
 
 ### Aufgabe Xd)
-![Aufgabe 2gc](image-20.png)
+![Aufgabe 2gc](images/Aufgabe_2gc_1.png)
 >**Xd)** Um welche Schnittstellen handelt es sich?
 
 ### Aufgabe Xe)
@@ -159,15 +159,15 @@ Wählen Sie aus den obenstehenden Begriffen drei aus und beschreiben Sie diese d
 
 ## Aufgabe:
 
-![Aufgabe 3 Teil 1](image-21.jpg)  
-![Aufgabe 3 Teil 2](image-22.jpg)  
-![Aufgabe 3 Teil 3](image-23.jpg)  
+![Aufgabe 3 Teil 1](images/Aufgabe_3_Teil_1.jpg)  
+![Aufgabe 3 Teil 2](images/Aufgabe_3_Teil_2.jpg)  
+![Aufgabe 3 Teil 3](images/Aufgabe_3_Teil_3.jpg)  
 
 ----
 
 ## Test Aufgabe:
 
-![testaufgabe](image-24.jpg)  
+![testaufgabe](images/testaufgabe.jpg)  
 
 [PDF Link](https://studentcloud.bbw-suedhessen.de/index.php/apps/files?dir=/FIAE2023-shared/100_Ausbildung/100_Pr%C3%BCfungsvorbereitung/AP1/Musterl%C3%B6sungen/Fruehjahr_2022_Nr3_Meyer&openfile=2430476)
 
@@ -181,12 +181,12 @@ Wählen Sie aus den obenstehenden Begriffen drei aus und beschreiben Sie diese d
 ----
 
 ## Aufgaben:
-![Aufgabe 4 a](image-25.png)  
-![Aufgabe 4 b](image-26.png)  
-![Aufgabe 4 c](image-27.png)  
-![Aufgabe 4 d Situation](image-28.png)  
-![Aufgabe 4 d Vorlage](image-29.png)  
-![Aufgabe 4 e](image-30.png)  
+![Aufgabe 4 a](images/Aufgabe_4_a.png)  
+![Aufgabe 4 b](images/Aufgabe_4_b.png)  
+![Aufgabe 4 c](images/Aufgabe_4_c.png)  
+![Aufgabe 4 d Situation](images/Aufgabe_4_d_Situation.png)  
+![Aufgabe 4 d Vorlage](images/Aufgabe_4_d_Vorlage.png)  
+![Aufgabe 4 e](images/Aufgabe_4_e.png)  
 
 ----
 

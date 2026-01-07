@@ -11,7 +11,7 @@ Sind sind in dem Projektteam, das geeignete Systeme auswählt.
 
 ### Aufgabe 1a) - Thema Nutzwertanalyse - 6 Punkte
 Nach der Auswertung von vier Firmenangeboten ergibt sich die folgende Tabelle. Unternehmen 3 bietet ausschließlich eine Software as a Service (SaaS) Lösung an.
-![Aufgabe 1a)](image-61.png)
+![Aufgabe 1a)](images/Aufgabe_1a.png)
 > aa) Ermitteln Sie die Fehlenden Werte und eine Reihenfolge der vier Unternehmen beginnend mit der höchsten Punktzahl
 ```txt
 
@@ -49,7 +49,7 @@ USB-C:
 DVI:
 Displayport (DP): 
 ```
-![Abbildungen](image-62.png)
+![Abbildungen](images/Abbildungen.png)
 
 ### Aufgabe 1d) - Thema Kaufvertrag - 2 Punkte
 Die Monitore wurden am 1. September 2023 bestellt. Es gibt keine Auftragsbestätigung und sie wurden am 7. Oktober 2023 geliefert. Die Rechnung haben Sie am 9. Oktober 2023 erhalten.
@@ -110,25 +110,25 @@ Die ordnungsgemäße Abwicklung des Kaufvertrages ist dem Kunden sehr wichtig.
 
 ## Aufgabe 2 - Netzwerkkonfiguration - 24 Punkte:
 ### Aufgabe 2) - Netzwerkeinstellungen
-![Aufgabe 2 Situation](image-63.png)
+![Aufgabe 2 Situation](images/Aufgabe_2_Situation.png)
 ### Aufgabe 2a) - Netzwerk LED - 4 Punkte
-![Aufgabe 2a](image-64.png)
+![Aufgabe 2a](images/Aufgabe_2a.png)
 ### Aufgabe 2b) - OSI-Modell - 4 Punkte
-![Aufgabe 2b](image-65.png)
+![Aufgabe 2b](images/Aufgabe_2b.png)
 ### Aufgabe 2b Vorlage) - OSI-Modell Vorlage
-![Aufgabe 2b Vorlage](image-66.png)
+![Aufgabe 2b Vorlage](images/Aufgabe_2b_Vorlage.png)
 ### Aufgabe 2c) - IPv6 - 5 Punkte
-![Aufgabe 2c](image-67.png)
+![Aufgabe 2c](images/Aufgabe_2c.png)
 ### Aufgabe 2d) - DHCP - 2 Punkte
-![Aufgabe 2d](image-68.png)
+![Aufgabe 2d](images/Aufgabe_2d.png)
 ### Aufgabe 2e) - Adress Resolution Protocol - 3 Punkte
-![Aufgabe 2e](image-69.png)
+![Aufgabe 2e](images/Aufgabe_2e.png)
 ### Aufgabe 2f) - Erreichbarkeit - 2 Punkte
-![Aufgabe 2f](image-70.png)
+![Aufgabe 2f](images/Aufgabe_2f.png)
 ### Aufgabe 2g) - Adressenzuweisung - 4 Punkte
-![Aufgabe 2g](image-71.png)
+![Aufgabe 2g](images/Aufgabe_2g.png)
 ### Aufgabe 2g Vorlage) - Adressenzuweisung Vorlage
-![Aufgabe 2g Vorlage](image-72.png)
+![Aufgabe 2g Vorlage](images/Aufgabe_2g_Vorlage.png)
 
 ----
 
@@ -155,11 +155,11 @@ Die ordnungsgemäße Abwicklung des Kaufvertrages ist dem Kunden sehr wichtig.
 >> Router
 >> Dateiübertragung
 
-![Aufgabe Xb Vorgabe](image-73.png)
+![Aufgabe Xb Vorgabe](images/Aufgabe_Xb_Vorgabe.png)
 
 ### Aufgabe Xc)
 >**Xc)** Nach ihrer Eingabe von "ipconfig" erhalten sie auf der Kommandozeile ihres Computers folgende Informationen.
-![Aufgabe Xc](image-74.png)
+![Aufgabe Xc](images/Aufgabe_Xc.png)
 
 ### Aufgabe Xca)
 >**Xca)** Ihnen fällt auf sie besitzen eine IPv6 und eine IPv4 Adresse. Nennen sie zwei Unterschiede zwischen den Protokollen.
@@ -192,14 +192,14 @@ description: My document description
 
 ## Aufgabe:
 
-![Aufgabe 4 Teil 1](image-75.jpg)  
-![Aufgabe 4 Teil 2](image-76.jpg)  
+![Aufgabe 4 Teil 1](images/Aufgabe_4_Teil_1.jpg)  
+![Aufgabe 4 Teil 2](images/Aufgabe_4_Teil_2.jpg)  
 
 ----
 
 ## Test Aufgabe:
 
-![testaufgabe](image-77.jpg)  
+![testaufgabe](images/testaufgabe.jpg)  
 
 #### Test Aufgabe zu 4 a) 
 Herr Müller speichert sensible Konstruktionsdaten auf seinem Laptop, um diese beim Kunden vor Ort bearbeiten zu können. Er möchte jedoch sicherstellen, dass diese Daten auch bei einem Diebstahl oder Verlust des Laptops geschützt bleiben.
