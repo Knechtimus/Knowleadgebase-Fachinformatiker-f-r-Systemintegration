@@ -30,7 +30,7 @@ Strukturierte Sammlung aller prüfungsrelevanten Inhalte mit:
 11. [⚙️ Qualitätsmanagement](./11_Qualitaetsmanagement/) - QM, ITIL, PDCA
 12. [💼 Wirtschaft & Soziales](./12_Wirtschaft_und_Soziales/) - Vertragsarten, Marktformen, Kalkulation, Investitionsrechnung
 13. [🏢 Systemintegration Spezifisch](./13_Systemintegration_Spezifisch/) - RZ, Monitoring, Dienste (AP2)
-14. [📝 Prüfungsvorbereitung](./Pruefungsvorbereitung/) - Checklisten, Formeln, Alte Prüfungen
+14. [📝 Prüfungsvorbereitung](./14_Pruefungsvorbereitung/) - Checklisten, Formeln, Alte Prüfungen
 
 ## 📊 Übersicht der Themenbereiche
 
@@ -160,11 +160,11 @@ Verfolge deinen Lernfortschritt durch die verschiedenen Themenbereiche:
 
 ## 🔗 Wichtige Dateien
 
-- [AP1 Checkliste](./Pruefungsvorbereitung/AP1_Checkliste.md) - Komplette Übersicht aller AP1-Themen
-- [AP2 Checkliste](./Pruefungsvorbereitung/AP2_Checkliste.md) - Komplette Übersicht aller AP2-Themen
-- [Formelsammlung](./Pruefungsvorbereitung/Formelsammlung.md) - Alle wichtigen Formeln
-- [Befehlsreferenz](./Pruefungsvorbereitung/Befehlsreferenz_CLI.md) - Windows & Linux Befehle
-- [Abkürzungsverzeichnis](./Pruefungsvorbereitung/Abkuerzungsverzeichnis.md) - Alle IT-Abkürzungen
+- [AP1 Checkliste](./14_Pruefungsvorbereitung/AP1_Checkliste.md) - Komplette Übersicht aller AP1-Themen
+- [AP2 Checkliste](./14_Pruefungsvorbereitung/AP2_Checkliste.md) - Komplette Übersicht aller AP2-Themen
+- [Formelsammlung](./14_Pruefungsvorbereitung/Formelsammlung.md) - Alle wichtigen Formeln
+- [Befehlsreferenz](./14_Pruefungsvorbereitung/Befehlsreferenz_CLI.md) - Windows & Linux Befehle
+- [Abkürzungsverzeichnis](./14_Pruefungsvorbereitung/Abkuerzungsverzeichnis.md) - Alle IT-Abkürzungen
 
 ## 💡 Tipps für die Prüfungsvorbereitung
 

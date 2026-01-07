@@ -25,7 +25,7 @@ Hierzu erhalten Sie von der IT-Abteilung die folgenden Informationen:
 ### a)  
 **Ergänzen Sie das bereits angefangene UML-Anwendungsfalldiagramm (Use Case Diagram) um die fehlenden Anwendungsfälle und Bezeichnungen der Akteure.**  
 
-![AP1 Herbst 2023 Aufgabe 1a](image-53.png)
+![AP1 Herbst 2023 Aufgabe 1a](images/AP1_Herbst_2023_Aufgabe_1a.png)
 
 ### b)  
 Aktuell müssen die Störungsmeldungen als E-Mail gesendet werden. Diese werden in einer Tabellenkalkulation verwaltet. Einmal in der Woche am Freitag erfolgt die Arbeitsplanung. Die Arbeitszeit des Serviceteams ist von montags bis freitags von 8:00 bis 17:00 Uhr.
@@ -94,11 +94,11 @@ Nach der vorgenommenen Preiserhöhung ruft ein Kunde an und sagt zu Ihnen:
 
 ## Test Aufgabe Rücker:
 
-![AP1 Herbst 2023 Übung Rücker Teil 1](image-54.jpg)
+![AP1 Herbst 2023 Übung Rücker Teil 1](images/AP1_Herbst_2023_Übung_Rücker_Teil_1.jpg)
 
-![AP1 Herbst 2023 Übung Rücker Teil 2](image-55.jpg)
+![AP1 Herbst 2023 Übung Rücker Teil 2](images/AP1_Herbst_2023_Übung_Rücker_Teil_2.jpg)
 
-![AP1 Herbst 2023 Übung Rücker Teil 3](image-56.jpg)
+![AP1 Herbst 2023 Übung Rücker Teil 3](images/AP1_Herbst_2023_Übung_Rücker_Teil_3.jpg)
 
 ----
 
@@ -129,7 +129,7 @@ Beschreiben Sie zwei Möglichkeiten bzw. Ergänzungen, die Arbeit mit Notebooks 
 Als Vorbereitung für das anstehende Gespräch mit dem Betribsrat sollen Sie Vor- und Nachteile von Homeoffice für die Beschäftigten zusammentragen.
 
 Tragen Sie in der nachfolgenden Tabelle jeweils zwei mögliche Vorteile und zwei Nachteile ein.
-![Aufgabe 2 d)](image-57.png)
+![Aufgabe 2 d)](images/Aufgabe_2_d.png)
 
 ### Aufgabe 2e) - 5 Punkte
 Im Rahmen des 24/7-Services will die OptiSoft-XXL GmbH ihre Hotline zur angebotenen Software um die Zeit zwischen 20:00 Uhr und 06:00 Uhr erweitern. Für diese Zeit ist für den First-, Second- und Third-Level-Supportdie häusliche Erreichbarkeit als Bereitschaftszeit jeweils ein Mitarbeiter erforderlich.
@@ -137,7 +137,7 @@ Im Rahmen des 24/7-Services will die OptiSoft-XXL GmbH ihre Hotline zur angebote
 Jeder Anruf wird zunächst vom First-Level-Support entgegengenommen und dann gegebenfalls weitergeleitet. Auch wenn dies der Fall ist, soll dieser zusätzliche Service dem Kunden als einheitlicher Minutenpreis angeboten werden. Weitere mögliche kosten und Nachbearbeitungszeiten zu den Anrufen sollen nicht berücksichtigt werden.
 
 Berechnen Sie, zu welchem einheitlichen Minutensatz kalkuliert werden muss, um die Kosten der Tabelle exakt zu decken. Der Rechenweg muss nachvollziehbar sein. Runden Sie gegebenfalls auf den nächsten Cent auf.
-![Aufgabe 2 e)](image-58.png)
+![Aufgabe 2 e)](images/Aufgabe_2_e.png)
 
 ### Aufgabe 2f) - 4 Punkte
 Die Kostenpflichtigkeit der Hotline muss dem Kunden kommuniziert werden.
@@ -194,7 +194,7 @@ Danach ist das Projekt beendet.
 
 ### ba) Erstellen Sie mit Hilfe der Vorgänge ein Gantt-Diagramm und zeichnen Sie die 	Abhängigkeiten ein. 
 
-![AP1h 2023 Aufgabe 4 ba](image-59.png)
+![AP1h 2023 Aufgabe 4 ba](images/AP1h_2023_Aufgabe_4_ba.png)
 
 ----
 
@@ -214,7 +214,7 @@ Zu jeder Tätigkeit soll eine ausführliche Beschreibung der durchgeführten Arb
 
 ### ca) Ergänzen Sie das ERD um die fehlenden Elemente zur Abbildung der Tätigkeiten in der Datenbank.
 
-![Aufgabe 4 ca)](image-60.png)
+![Aufgabe 4 ca)](images/Aufgabe_4_ca.png)
 
 ### cb) Sie erhalten von der Geschäftsleitung den Auftrag, aus statistischen Gründen die Anzahl der Tickets pro Priorität zu ermiteln.
 ### Die Ausgabe soll die Priorität und die dazugehörige Anzahl erhalten.

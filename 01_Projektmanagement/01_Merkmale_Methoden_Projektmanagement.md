@@ -199,7 +199,7 @@ Zeitliche Abfolge von Aktivitäten grafisch in Form von Balken auf einer Zeitach
 Hier sind auch wichtige Bestandteile der Projektphasen ersichtlich. Sinnvoll ist es z.B. Meilensteine mit dem Gantt-Diagramm zu verknüfen
 <!-- TODO: Gantt-Diagramm Beispiel und Erklärung ergänzen -->
 
-![Gantt-Diagramm](image.png)
+![Gantt-Diagramm](Gantt_Diagramm_Beispiel.png)
 
 ## Teamphasen nach Tuckman
 

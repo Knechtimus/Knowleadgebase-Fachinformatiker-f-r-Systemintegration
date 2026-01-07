@@ -14,7 +14,7 @@ description: My document description
 
 ## Aufgabe:
 
-![AP1 Frühjahr 2023 Aufgabe 2a](image-43.png)
+![AP1 Frühjahr 2023 Aufgabe 2a](images/AP1_Frühjahr_2023_Aufgabe_2a.png)
 
 ----
 
@@ -76,14 +76,14 @@ Quelle: Lernfeld 2 Finanzierung und Leasing
 
 ## Aufgabe:
 
-![AP1 Frühjahr 2023 Aufgabe 3 Teil 2](image-44.jpg)  
-![AP1 Frühjahr 2023 Aufgabe 3 Teil 2](image-45.jpg)  
+![AP1 Frühjahr 2023 Aufgabe 3 Teil 2](images/AP1_Frühjahr_2023_Aufgabe_3_Teil_2.jpg)  
+![AP1 Frühjahr 2023 Aufgabe 3 Teil 2](images/AP1_Frühjahr_2023_Aufgabe_3_Teil_2_1.jpg)  
 
 ----
 
 ## Test Aufgabe:
 
-![Selbsterstellte Aufgabe](image-46.jpg)  
+![Selbsterstellte Aufgabe](images/Selbsterstellte_Aufgabe.jpg)  
 
 ----
 
@@ -95,12 +95,12 @@ Quelle: Lernfeld 2 Finanzierung und Leasing
 ----
 
 ## Aufgaben:
-![Aufgabe 4 a](image-47.png)  
-![Aufgabe 4 ba](image-48.png)  
-![Aufgabe 4 bb](image-49.png)  
-![Aufgabe 4 c](image-50.png)  
-![Aufgabe 4 da](image-51.png)  
-![Aufgabe 4 db](image-52.png)
+![Aufgabe 4 a](images/Aufgabe_4_a.png)  
+![Aufgabe 4 ba](images/Aufgabe_4_ba.png)  
+![Aufgabe 4 bb](images/Aufgabe_4_bb.png)  
+![Aufgabe 4 c](images/Aufgabe_4_c.png)  
+![Aufgabe 4 da](images/Aufgabe_4_da.png)  
+![Aufgabe 4 db](images/Aufgabe_4_db.png)
 
 ----
 

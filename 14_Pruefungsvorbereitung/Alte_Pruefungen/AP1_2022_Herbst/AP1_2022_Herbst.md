@@ -66,9 +66,9 @@ Es stellt sich die Frage, ob mit dem Projektberater ein Dienstvertrag oder Werkv
 
 ## Test Aufgabe Rücker:
 
-![AP1h 2022 Aufgabe Übung Rücker](image-31.jpg)
+![AP1h 2022 Aufgabe Übung Rücker](images/AP1h_2022_Aufgabe_Übung_Rücker.jpg)
 
-![AP1h 2022 Aufgabe Übung Rücker](image-32.jpg)
+![AP1h 2022 Aufgabe Übung Rücker](images/AP1h_2022_Aufgabe_Übung_Rücker_1.jpg)
 
 ## Test Aufgabe Hübscher:
 
@@ -198,7 +198,7 @@ Nennen Sie drei Vorteile, die den Einsatz begründen.
 Für die Kennzeichnung der produzierten Kartonrollen durch einen maschienenlesbaren Aufkleber schlägt die Geschäftsleitung die Verwendung von Barcode, QR-Code oder RFID-Chips vor.
 
 Stellen Sie jeweils einen Vor- und Nachteil der Kennzeichnung mit QR-Code bzw. RFID-Chips in der folgenden Tabelle gegenüber.
-![Aufgabe 2 e)](image-33.png)
+![Aufgabe 2 e)](images/Aufgabe_2_e.png)
 
 ----
 
@@ -285,21 +285,21 @@ Bewerten Sie anschließend die Anbieter und Angebote mit einer Skala von 1 (schw
 
 ## Aufgabe 4 - SQL und Diagramme - 24 Punkte:
 ### Aufgabe 4a) - Walzanlage
-![Aufgabe 4a Aufgabenstellung](image-34.png)
+![Aufgabe 4a Aufgabenstellung](images/Aufgabe_4a_Aufgabenstellung.png)
 ### Aufgabe 4aa) - Output ohne ID - 3 Punkte
-![Aufgabe 4aa](image-35.png)
+![Aufgabe 4aa](images/Aufgabe_4aa.png)
 ### Aufgabe 4ab) - Spezfizierte Dicke - 4 Punkte
-![Aufgabe 4ab](image-36.png)
+![Aufgabe 4ab](images/Aufgabe_4ab.png)
 ### Aufgabe 4ac) - Produktionsanzahl - 4 Punkte
-![Aufgabe 4ac](image-37.png)
+![Aufgabe 4ac](images/Aufgabe_4ac.png)
 ### Aufgabe 4b) - Struktogramm - 7 Punkte
-![Aufgabe 4b](image-38.png)
+![Aufgabe 4b](images/Aufgabe_4b.png)
 ### Aufgabe 4b Vorlage) - Struktogramm Vorlage
-![Aufgabe 4b Vorgabe](image-39.png)
+![Aufgabe 4b Vorgabe](images/Aufgabe_4b_Vorgabe.png)
 ### Aufgabe 4c) - Entity-Relationship-Modell - 6 Punkte
-![Aufgabe 4c](image-40.png)
+![Aufgabe 4c](images/Aufgabe_4c.png)
 ### Aufgabe 4c Vorlage) - Entity-Relationship-Modell Vorlage
-![Aufgabe 4c Vorgabe](image-41.png)
+![Aufgabe 4c Vorgabe](images/Aufgabe_4c_Vorgabe.png)
 
 ----
 
@@ -352,4 +352,4 @@ Bewerten Sie anschließend die Anbieter und Angebote mit einer Skala von 1 (schw
 >
 > Ergänzen sie das gegebene Struktogramm durch die entsprechenden Befehle um eine Liste zum Bestellen von Produkten zu erstellen.
 
-![Aufgabe Xb Vorlage](image-42.png)
+![Aufgabe Xb Vorlage](images/Aufgabe_Xb_Vorlage.png)
