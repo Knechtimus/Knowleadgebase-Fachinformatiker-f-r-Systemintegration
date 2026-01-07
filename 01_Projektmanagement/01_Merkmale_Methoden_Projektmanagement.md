@@ -15,7 +15,33 @@
 
 ## Grundlagen
 
-<!-- TODO: Grundlegende Konzepte ergänzen -->
+### Was ist ein Projekt?
+
+Ein **Projekt** ist ein einmaliges, zeitlich begrenztes Vorhaben mit einem definierten Anfang und Ende, das zur Erreichung eines bestimmten Ziels durchgeführt wird. Im Gegensatz zu Routineaufgaben sind Projekte durch ihre Einmaligkeit und Komplexität gekennzeichnet.
+
+### Was ist Projektmanagement?
+
+**Projektmanagement** umfasst die Planung, Steuerung, Koordination und Kontrolle aller Aktivitäten, Ressourcen und Prozesse, die zur erfolgreichen Durchführung eines Projekts notwendig sind. Ziel ist es, das Projektziel innerhalb der vorgegebenen Zeit, des Budgets und der Qualitätsanforderungen zu erreichen.
+
+### Projektdreieck (Magisches Dreieck)
+
+Das magische Dreieck des Projektmanagements zeigt die drei zentralen Faktoren, die in einem Spannungsverhältnis zueinander stehen:
+
+1. **Zeit**: Projektdauer, Termine, Meilensteine
+2. **Kosten**: Budget, Ressourcen, Personal
+3. **Qualität/Leistung**: Umfang, Anforderungen, Ergebnis
+
+**Wichtig**: Änderungen an einem Faktor beeinflussen immer auch die anderen beiden Faktoren. Beispiel: Wenn die Zeit verkürzt wird, steigen meist die Kosten oder die Qualität leidet.
+
+### Projektphasen
+
+Typische Phasen eines IT-Projekts:
+
+1. **Initialisierung**: Projektidee, grobe Zielsetzung, Machbarkeit
+2. **Planung**: Detaillierte Planung von Zeit, Kosten, Ressourcen, Qualität
+3. **Durchführung**: Umsetzung der geplanten Aufgaben
+4. **Überwachung/Steuerung**: Kontrolle des Fortschritts, Anpassungen
+5. **Abschluss**: Projektübergabe, Dokumentation, Lessons Learned
 
 ## Wichtige Begriffe
 
