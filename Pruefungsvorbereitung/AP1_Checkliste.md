@@ -28,7 +28,7 @@
 **Wochenziel:** Netzplan-Berechnungen sicher beherrschen ✅
 
 ### Montag, 06.01.2026
-- [ ] Projektmerkmale vs. Aufträge unterscheiden
+- [/] Projektmerkmale vs. Aufträge unterscheiden
 - [ ] Projektphasen kennen (Initiierung, Planung, Durchführung, Abschluss)
 - [ ] Notizen gemacht
 - [ ] 3 Karteikarten erstellt
