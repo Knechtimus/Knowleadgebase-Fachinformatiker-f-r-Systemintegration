@@ -103,7 +103,7 @@ Stakeholder und Umfeldanalyse.
 Ähnlich wie in der Konflikt- / Machtbewertung bewertet man diese Risiken mit einer 
 Eintrittswahrscheinlichkeit, und plant auch Konfliktmaßnahmen.
 
-[Risikoanalyse Bild](https://www.factro.de/wp-content/uploads/2024/03/Blog_Risikoanalyse-1.png)
+![Risikoanalyse Bild](https://www.factro.de/wp-content/uploads/2024/03/Blog_Risikoanalyse-1.png)
 
 
 ## Prüfungsrelevante Inhalte
