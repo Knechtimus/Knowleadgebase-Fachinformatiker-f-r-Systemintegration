@@ -81,7 +81,7 @@
 **Wochenziel:** Nutzwertanalyse berechnen können ✅
 
 ### Montag, 13.01.2026
-- [x] Marktformen unterscheiden (Monopol, Oligopol, Polypol)
+- [x] :white_check_mark: Marktformen unterscheiden (Monopol, Oligopol, Polypol)
 - [x] Marktformen-Beispiele zuordnen
 - [ ] Notizen gemacht
 - [ ] 3 Karteikarten erstellt
