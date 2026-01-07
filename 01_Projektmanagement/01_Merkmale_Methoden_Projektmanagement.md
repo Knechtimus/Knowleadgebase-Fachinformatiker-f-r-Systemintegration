@@ -50,24 +50,64 @@ Die drei Hauptfaktoren stehen in gegenseitiger Abhängigkeit:
 | Gantt-Diagramm | |
 
 ## Merkmale eines Projekts (DIN 69901-5)
+Projekte lassen sich durch spezifische Merkmale definieren:
+Jedes Projekt hat ein Vorgegebenes Ziel, meist basierend auf eine Problemstellung.
+Projekte kann man auch als Problemlösung für neuartige Aufgaben mit großem Spektrum sehen.
+Solche Projekte werden auch meist nur einmal durchgeführt, oder können bspw. Bei mehreren 
+Standorten auch als Blueprint dienen.
+Aus der DIN 69901-5 lässt sich auch folgende Definiton zu einem Projekt finden:
+Ein Projekt ist ein Vorhaben, das im Wesentlichen durch Einmaligkeit der Bedinugngen in ihrer 
+Gesamtheit gekennzeichnet ist.
+Es kennzeichnet sich aus durch:
+- Eine Zielvorgabe
+- Zeitliche, finanzielle, personelle oder andere Begrenzugen
+- Eine projektspezifische Organisation
 
-<!-- TODO: Merkmale ergänzen -->
 
 ## Projektstrukturplan
 
+Ein Strukturplan ist im Großen und Ganzen die Gliederung eines Projektes in einzelne 
+Elemente.
+Das Primäre Ziel ist hier, alle Elemente in planbare und kontrollierbare Teilaufgaben und 
+Arbeitspakete zu zerlegen. So erhält man ein ordentlichen Gesamtüberblick des gesamten 
+Projektes
+
 ### Methoden
 - **Top-Down**: 
+Das Projekt wird zuerst als ganzes betrachtet, dann werden einzelne 
+Teilaufgaben/Teilprojekte identifiziert und definiert, woraus sich dann die Arbeitspakete 
+und einzelnen Teilaufgaben festlegen.
 - **Bottom-Up**: 
+Der Bottom-Up Ansatz ist entgegengesetzt dem Top-Down Ansatz. Welche 
+Arbeitspakete sind Nötig, in welche Teilprojekte lassen sich diese dann definieren, um 
+das Ziel des Gesamtprojektes zu erreichen bzw. dieses zu definieren?
 - **Yo-Yo**: 
+Beim Yo-Yo Ansatz wird von beiden Richtungen gleichzeitig geplant
 
 ## Lasten- und Pflichtenheft
 
-| Dokument | Beschreibung | Ersteller |
-|----------|--------------|-----------|
-| Lastenheft | | |
-| Pflichtenheft | | |
+**Lastenheft:**
+Das Lastenheft beschreibt die Anforderungen und Erwartungen des Auftraggebers an das 
+Projekt. Es legt fest, was das zu entwickelndes System oder Produkt leisten soll, ohne jedoch 
+technische Details zu definieren.
+
+**Pflichtenheft:**
+Das Pflichtenheft wird vom Auftragnehmer erstellt und beschreibt, wie die im Lastenheft 
+definierten Anforderungen umgesetzt werden. Es enthält konkrete technische Lösungen, 
+Verfahren und Vorgehensweisen, um die Anforderungen zu erfüllen.
+
 
 ## Netzplantechnik
+
+Nach DIN 69 900 ist ein Netzplan wie folgt definiert:
+Ein Netzplan ist eine grafische oder tabellarische Darstellung einer Ablaufstruktur, die aus 
+Vorgängen bzw. Ereignissen und Anordnungsbeziehungen besteht.
+
+Ein solcher Netzplan hilft, eine Terminplanung zu bilden.
+Es hilft, eine Gesamtdauer des Projektes festzulegen und eine zeitliche und logische Abfolge 
+der Vorgänge im Projekt zu definieren.
+Hierraus können sich dann kritische Pfade und Vorgänge identifizieren, die essenziell wichtig 
+für das geplante Projektende sind und hilft, Puffer und Zeitreserven herauszufinden.
 
 ### Netzplan-Begriffe
 
@@ -77,67 +117,107 @@ Die drei Hauptfaktoren stehen in gegenseitiger Abhängigkeit:
 | FEZ | Frühester Endzeitpunkt |
 | SAZ | Spätester Anfangszeitpunkt |
 | SEZ | Spätester Endzeitpunkt |
-| GP | Gesamtpuffer |
-| FP | Freier Puffer |
+| GP | Gesamtpuffer (GP = SAZ - FAZ oder GP = SEZ - FEZ) |
+| FP | Freier Puffer (FP = FAZ des Nachfolgers - FEZ des Vorgängers) |
+
+**Vorwärtsrechnung:** Prozess beginnt mit dem Startpunkt des Projekts, nach vorne Arbeiten
+
+**Beispiel:** 
+
+Aufgabe A hat eine Dauer von 3 Tagen und keine Vorgänger, also ist der FAZ der 1. Tag und 
+FEZ der 3. Tag.
+Aufgabe B hat eine Dauer von 5 Tagen und ist von Aufgabe A abhängig. Der FAZ von B ist der 
+4. Tag (EF von A + 1), der FEZ von B ist der 8. Tag (ES von B + Dauer).
+
+**Rückwärtsrechnung:** Spätester Start- und Endzeitpunkt
+
+Man beginnt bei der Letzten Aufgabe.
+Angenommen, das Projekt hat eine Gesamtdauer von 10 Tagen. Aufgabe C dauert 5 Tage
+Aufgabe C ist der letzte Vorgang und hat keine Nachfolger, also ist der SEZ der 10. Tag und 
+der SAZ der 6. Tag (LF - Dauer).
 
 ## SMART-Prinzip
 
 | Buchstabe | Bedeutung | Beschreibung |
 |-----------|-----------|--------------|
-| S | Spezifisch | |
-| M | Messbar | |
-| A | Attraktiv | |
-| R | Realistisch | |
-| T | Terminiert | |
+| S | Spezifisch | Ziele müssen eindeutig definiert sein |
+| M | Messbar | Ziele müssen messbar sein |
+| A | Attraktiv | Ziele sind Ansprechend bzw. Erstrebenswert |
+| R | Realistisch | Das gestreckte Ziele muss möglich realisierbar sein |
+| T | Terminiert | Das Ziel muss mit einem fixen Datum festgelegt werden |
 
 ## Meilensteine
+Meilensteine sind Bestandteil desd klassischen Projektmanagements, an einem Meilenstein wird ein bestimmtes Ziel erreicht oder ein definiertes Ergebnis erarbeitet.
+Das Erarbeiten / Erreichen aller Ziele ist wichtig für das gelingen des Projektes.
 
-<!-- TODO: Meilensteine ergänzen -->
+![Meilensteinbild](https://projekte-leicht-gemacht.de/wp-content/uploads/2015/07/phasenplanung3.jpg)
 
 ## Wasserfallmodell
 
-<!-- TODO: Phasen des Wasserfallmodells ergänzen -->
+![Wasserfallmodell](https://blog.assets.studyflix.de/wp-content/uploads/2023/06/Wasserfallmodell-Projektmanagement-1-1024x576.jpg)
+
+Im Wasserfallmodell "fließt" eine Projektphase in die Nächste - immer in eine Richtung, ohne die Reihenfolge zu verändern, wie ein Wasserfall.
+
+-> die Phasen sind dadurch klar abgegrenzt.
 
 ## Scrum
+
+Scrum ist ein Agiles Modell im Projektmanagement, was darauf basiert, flexibel und iterative (wiederholende) Prozesse zu verwenden, um das Projekt effizient steuern und entwickeln zukönnen
+
+Ein Sprint int eine festgelegte Entwicklungsphase, in der Regel 1-4 Wochen lang, in der es eine Sprintplanung und ein Sprint-Review gibt. Dieser darf nicht unterbrochen werden.
+
+In einem Daily Scrum bspw. wird in 15 Minuten der aktuelle Stand geteilt, oft auch "Standup" genannt. Hier wird versucht Hindernisse frühzeitig zu erkennen und zu beheben.
+
 
 ### Scrum-Rollen
 
 | Rolle | Beschreibung |
 |-------|--------------|
-| Scrum Master | |
-| Entwicklerteam | |
-| Product Owner | |
-| Stakeholder | |
+| Scrum Master | Sorgt für Einhaltung der Regeln. beteiligt sich nicht an der Entwicklung |
+| Entwicklerteam | 3 bis max 9 Personen. Entwickler, tester und Architekten |
+| Product Owner | kümmert sich um das Produkt Backlog und die Schnittstelle zwischen Kunden und Projektbeteiligten |
+| Stakeholder | Alle Personen, die Interesse an einem Projekt haben und beinflusst werden können z.B. Kunden, Investoren aber auch Führungskräfte |
 
 ### Scrum-Artefakte
-- Product Backlog
-- Sprint Backlog
-- Increment
+- Product Backlog - Priorisierte Liste aller Anforderungen/Features für da Produkt. Wird vom Product owner Verwaltet
+- Sprint Backlog - Ausgewählte Items aus dem Product Backlog für den aktuellen Sprint + Plan zur Umsetzung
+- Increment - Die Summe aller fertigen Product Backlog Items am Ende eines Sprints. Muss der "Definition of Done" entsprechen.
 
-### Scrum-Events
-- Sprint Planning
-- Daily Scrum
-- Sprint Review
-- Sprint Retrospective
+### Scrum-Events 
+
+| Event | Beschreibung | Timebox |
+|-------|--------------|---------|
+| Sprint Planning | Planung der Arbeit für den kommenden Sprint. Was wird erledigt? Wie wird es umgesetzt? | Max. 8h (bei 4-Wochen-Sprint) |
+| Daily Scrum | Tägliches Stand-up-Meeting zur Synchronisation des Teams. Was habe ich getan? Was werde ich tun? Gibt es Hindernisse? | Max. 15 Min. |
+| Sprint Review | Präsentation des Increments vor Stakeholdern. Feedback einholen. | Max. 4h |
+| Sprint Retrospective | Team reflektiert den vergangenen Sprint: Was lief gut? Was kann verbessert werden? | Max. 3h |
 
 ## Gantt-Diagramm
 
+Zeitliche Abfolge von Aktivitäten grafisch in Form von Balken auf einer Zeitachse. Dies hilft eine realistische Terminierung zu erhalten, wie die Aufgaben miteinander verknüpft sind und welche evt. sich überschneiden und Parallel laufen.
+
+Hier sind auch wichtige Bestandteile der Projektphasen ersichtlich. Sinnvoll ist es z.B. Meilensteine mit dem Gantt-Diagramm zu verknüfen
 <!-- TODO: Gantt-Diagramm Beispiel und Erklärung ergänzen -->
+
+![Gantt-Diagramm](image.png)
 
 ## Teamphasen nach Tuckman
 
 | Phase | Beschreibung |
 |-------|--------------|
-| Forming | |
-| Storming | |
-| Norming | |
-| Performing | |
-| Adjourning | |
+| Forming | Formieren, kennenlernen, klarstellung der Rollen & auflösen von anfänglicher Unsicherheit |
+| Storming | zubeginn kommt es häufig zu Diskussionen mit Interessengegensätzen und Meinungsverschiedenheiten |
+| Norming | Team findet seinen Rhythmus. Individuelle Rollenverteilung und Arbeitsweisen sind bekannt |
+| Performing | ab hier ist das Team vollständig eingespielt und verfolgt gemeinsam ein Ziel und können Potenzial voll ausschöpfen |
+| Adjourning | das Team wird aufgelöst und Erfolg wird besprochen. Das Projekt ist hier abgeschlossen |
 
 ## Reflektionsmethoden
 
+Eine Feedback-Kultur ist wichtig, um im Projektablauf reflektieren zu können. Regelmäßig sollte hier kontstruktive und offene Rückmeldungen passieren
+
 ### Lessons Learned
-<!-- TODO: Lessons Learned Methodik ergänzen -->
+
+Hier werden nach Abschluss eines Projektes oder einer Phase die wichtigsten Erkenntnisse und Erfarungen zusammengetragen. Hauptsächlich, um aus Erfolgen und Misserfolgen zu lernen, diese dann dokumentiert in zukünftige Projekte einfließen zulassen und eine kontinuierliche Verbesserung zu gewährleisten
 
 ## Prüfungsrelevante Inhalte
 
