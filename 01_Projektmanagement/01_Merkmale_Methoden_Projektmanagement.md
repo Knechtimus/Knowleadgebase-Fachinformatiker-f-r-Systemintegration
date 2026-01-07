@@ -15,7 +15,29 @@
 
 ## Grundlagen
 
-<!-- TODO: Grundlegende Konzepte ergänzen -->
+Projektmanagement ist die Gesamtheit von Führungsaufgaben, -organisation, -techniken und -mitteln zur Abwicklung eines Projekts. In der IT-Systemintegration ist professionelles Projektmanagement essentiell für:
+
+- **Strukturierte Planung** von IT-Projekten (Installation, Migration, Implementierung)
+- **Termingerechte Umsetzung** unter Einhaltung von Zeitvorgaben und Meilensteinen
+- **Budgetkontrolle** und Einhaltung der Kostenplanung
+- **Qualitätssicherung** der zu liefernden IT-Lösungen
+- **Risikomanagement** zur frühzeitigen Erkennung und Vermeidung von Problemen
+- **Koordination** verschiedener Stakeholder (Kunde, Team, Management)
+
+Ein Projekt durchläuft typischerweise folgende **Phasen**:
+1. **Initialisierung** - Projektauftrag, Zieldefinition
+2. **Planung** - Ressourcen, Zeit, Kosten, Risiken
+3. **Durchführung** - Umsetzung der geplanten Aufgaben
+4. **Controlling** - Überwachung und Steuerung (parallel zur Durchführung)
+5. **Abschluss** - Abnahme, Dokumentation, Lessons Learned
+
+**Magisches Dreieck des Projektmanagements:**
+Die drei Hauptfaktoren stehen in gegenseitiger Abhängigkeit:
+- **Zeit** (Termine, Dauer)
+- **Kosten** (Budget, Ressourcen)
+- **Qualität** (Leistungsumfang, Anforderungen)
+
+Änderungen an einem Faktor beeinflussen automatisch die anderen beiden Faktoren.
 
 ## Wichtige Begriffe
 
