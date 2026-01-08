@@ -10,7 +10,20 @@
 
 ## Grundlagen
 
-<!-- TODO: Grundlegende Konzepte ergänzen -->
+Informationen aufbereiten und präsentieren bedeutet, relevante Daten systematisch zu 
+sammeln, zu strukturieren und verständlich aufzubereiten. Dabei müssen sowohl technische als 
+auch kaufmännische Texte in deutscher und englischer Sprache analysiert und so verarbeitet 
+werden, dass sie für unterschiedliche Zuhörergruppen verständlich sind.
+
+Präsentationen sollten klar und zielgerichtet sein, mit visuellen Hilfsmitteln wie Folien und 
+Diagrammen, um die wichtigsten Informationen hervorzuheben. Medienkompetenz ist dabei 
+wichtig, um Präsentationstechniken wie PowerPoint effektiv zu nutzen.
+
+Quellen auswerten bedeutet, Informationen aus technischen und kaufmännischen Texten 
+kritisch zu prüfen und zwischen vertrauenswürdigen und weniger zuverlässigen Quellen zu 
+unterscheiden. Das schnelle Identifizieren und korrekte Zitieren relevanter Informationen sichert 
+die Qualität deiner Präsentationen und Berichte
+
 
 ## Wichtige Begriffe
 

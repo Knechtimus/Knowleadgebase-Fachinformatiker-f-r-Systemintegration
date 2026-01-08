@@ -10,7 +10,11 @@
 
 ## Grundlagen
 
-<!-- TODO: Grundlegende Konzepte ergänzen -->
+Eine Bedarfsanalyse ist der Prozess, den Bedarf an Produkten, Dienstleistungen oder ressourcen zu ermitteln im Zusammenhang mit den Zielgruppen.
+
+Sie dient dazu, Lücken zwischen dem IST-Zustand und dem SOLL-Zustand zu schließen
+Also: ermitteln des tatsächlichen Bedarfs, Gruppenanalyse usw.
+
 
 ## Wichtige Begriffe
 
@@ -23,21 +27,33 @@
 
 ## Arten der Bedarfsanalyse
 
-<!-- TODO: Arten der Bedarfsanalyse ergänzen -->
+**Markbedarfsanalyse:** Bedarf im Markt oder BRanche verstehen
+**Unternehmensbedarfsanalyse:** Innerhalb eines Unternehmens bspw. Ressourcenplanung & Personalbedarf
+**Kundenbedarfsanalyse:** Fokus auf Kunden, Zufriedenheit maximieren und richtige Produkte anbieten
 
 ## Methoden der Datenerhebung
 
+Eigene Datenerhebungen bedeuten, ein Unternehmen oder eine Person sammelt Daten, die für die Analyse oder Entscheidungsfindung benötigt werden.
+
+Ein Beispiel wäre die **Kundenbefragung** ob per Online Umfrage, Telefon oder Face to Face 
+
+### Methoden
+
 | Art | Methoden |
 |-----|----------|
-| Qualitativ | |
-| Quantitativ | |
+| Qualitativ | Interviews (Online, Face-to-face) Befragung von Fokus / Zielgruppen, 
+Beobachtung von Personen, des Marktes etc. |
+| Quantitativ | Umfragen (Online, Telefonumfragen), Web Analytics (sowas wie Google 
+Analytics) |
+
+Diese Daten müssen dann auch Anhand von Statisitk oder einer Datenanalyse ausgewertet 
+werden, z.B. Was sind gemeinsame Anforderungen eines Mitarbeiters an einen Arbeitsplatz? 
+Welche aktuellen Trends gibt es in der Hinsicht?
+
 
 ## SWOT-Analyse
 
-| | Positiv | Negativ |
-|---|---------|---------|
-| **Intern** | Strengths (Stärken) | Weaknesses (Schwächen) |
-| **Extern** | Opportunities (Chancen) | Threats (Risiken) |
+![Swot-matrix](Swot-analyse.png)
 
 ## Prüfungsrelevante Inhalte
 

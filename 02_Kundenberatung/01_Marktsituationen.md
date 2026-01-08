@@ -67,11 +67,35 @@ Beispielzielgruppen:
 
 ## Angebotsbewertung
 
+Damit z.B ein passendes Angebot gefunden werden kann, legt man eine Angebotsbewertung 
+an, bei der man verschiedene Verkäufer / Dienstleister anhand quantitativer und oder 
+qualitativer Faktoren bewertet.
+Hier definiert der Angebotssuchende seine eigenen Schwerpunkte, und wie er dieser am besten 
+Gewichten möchte.
+
 ### Quantitative Angebotsbewertung
-<!-- TODO: Quantitative Bewertung ergänzen -->
+
+Quantitative Faktoren: Direkt ohne Umwege in Geldeinheiten
+- Preis
+- Transportkosten und ähnliches (Verpackungskosten, Fracht..)
+- Rabatt (Mengenrabatt, Großkundenrabatt, Barzahlungsrabatt, Saisonrabatt u.ä.)
+- Sonderangebote
+- Skonto (Rabatt, wenn innerhalb einer bestimmten Zeitspanne bezahlt wird)
+- Zahlungsspielraum
+- Verhandlungsspielraum
 
 ### Qualitative Angebotsbewertung
-<!-- TODO: Qualitative Bewertung ergänzen -->
+
+Qualitative Faktoren: Qualitative Einschätzung eines Angebotes
+- Termintreue
+- Allg. Qualität der Güter
+- Standortnäje
+- Umweltfreundlichkeit der Materialien und evtl. Entsorgungspläne
+- Beratung
+- Service
+Auch Merkmale wie “Freundlichkeit” können dazu genommen werden.
+
+
 
 ## Prüfungsrelevante Inhalte
 
