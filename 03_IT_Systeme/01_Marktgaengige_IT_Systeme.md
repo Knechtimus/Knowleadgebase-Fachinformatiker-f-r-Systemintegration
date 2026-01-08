@@ -99,12 +99,31 @@ Mit diesen Aspekten im Blick fällt die Auswahl eines passenden IT-Systems leich
 
 ## KI-Systeme
 
+KI-Systeme verbinden moderne Software und Hardware, um mithilfe künstlicher Intelligenz Aufgaben in der digitalen und physischen Welt “intelligent” zu lösen. Sie nutzen fortschrittliche Algorithmen, maschinelles Lernen (ML) und Deep Learning, um aus Erfahrungen zu lernen und sich stetig zu verbessern.
+
+Typische Einsatzbereiche sind die Automatisierung von Prozessen (z. B. Chatbots, Sprachassistenten), die Analyse großer Datenmengen, Bild- und Spracherkennung, Robotik, autonome Systeme und Cybersecurity. KI macht viele Anwendungen effizienter und eröffnet neue Möglichkeiten im Alltag und Beruf.
+
+**Wichtige KI-Technologien im Überblick:**
+
 | Technologie                | Beschreibung                                         |
 |----------------------------|------------------------------------------------------|
-| Maschinelles Lernen        | Systeme lernen aus Daten und verbessern sich selbst. |
-| Deep Learning              | Mehrschichtige neuronale Netze für komplexe Aufgaben.|
-| NLP (Natural Language Processing) | Verarbeitung und Analyse natürlicher Sprache.  |
-| Computer Vision            | Automatische Auswertung und Erkennung von Bildern.   |
+| Maschinelles Lernen        | Systeme erkennen Muster in Daten und lernen selbstständig dazu. |
+| Deep Learning              | Komplexe Aufgaben werden mit mehrschichtigen neuronalen Netzen gelöst. |
+| NLP (Natural Language Processing) | KI versteht und verarbeitet natürliche Sprache, z. B. für Chatbots. |
+| Computer Vision            | Bilder und Videos werden automatisch ausgewertet und erkannt. |
+
+KI-Systeme sind heute aus vielen Bereichen nicht mehr wegzudenken und gestalten die Zukunft aktiv mit. Gleichzeitig bringen sie wichtige ethische Fragestellungen mit sich, die verantwortungsvoll betrachtet werden sollten.
+
+**Bias und Diskriminierung:**  
+KI-Systeme lernen aus vorhandenen Daten, die unbeabsichtigt Vorurteile oder Verzerrungen enthalten können. Eine bewusste Auswahl und Prüfung der Trainingsdaten hilft, faire und inklusive Lösungen zu entwickeln.
+
+**Datenschutz und Privatsphäre:**  
+KI verarbeitet große Datenmengen, darunter oft auch personenbezogene Informationen. Der Schutz der Privatsphäre und die Einhaltung von Datenschutzrichtlinien sind daher besonders wichtig.
+
+**Urheberrecht und Kreativität:**  
+Gerade bei generativer KI, die aus bestehenden Werken lernt, ist ein respektvoller Umgang mit geistigem Eigentum gefragt. KI kann Künstlerstile imitieren, sollte aber die Rechte und die Kreativität der Originalschaffenden achten.
+
+Ein verantwortungsvoller Einsatz von KI fördert Innovation und gesellschaftlichen Fortschritt – unter Berücksichtigung ethischer, rechtlicher und sozialer Aspekte.
 
 ## Prüfungsrelevante Inhalte
 
