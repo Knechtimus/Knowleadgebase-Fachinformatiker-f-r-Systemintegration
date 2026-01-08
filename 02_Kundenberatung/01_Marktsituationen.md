@@ -29,14 +29,35 @@
 | | Viele Anbieter | Wenige Anbieter | Ein Anbieter |
 |---|----------------|-----------------|--------------|
 | Viele Nachfrager | Polypol | Oligopol | Monopol |
-| Wenige Nachfrager | | | |
-| Ein Nachfrager | | | |
+| Wenige Nachfrager | Nachfrageoligopol | Zweiseitiges Oligopol | Beschränktes Monopol |
+| Ein Nachfrager | Nachfragemonopol | Beschränktes Nachfragemonopol | Zweiseitiges Monopol |
 
 ## Verkäufer-/Käufermarkt
 
-<!-- TODO: Verkäufer- und Käufermarkt ergänzen -->
+**Verkäufermarkt:** Verkäufer:innen haben das Sagen
+Nachfrage ist größer als das Angebot
+Bspw. Engpass in der Produktion, dadurch inflationierte Preise
+
+**Käufermarkt:** Konsumierende haben die größere Marktmacht
+Angebot ist größer als die Nachfrage
+Bspw. Engpass im Absatz, dadurch Preissenkungen
+
 
 ## Zielgruppendefinition
+
+Eine Zielgruppe definiert eine Gruppe von Menschen / Unternehmen, die mit einem Produkt / 
+einer Dienstleistung angesprochen werden sollen, bzw. Sich Bedürfnisse oder Interessen in 
+dieser Hinsicht teilen.
+Um eine Zielgruppe zu definieren, helfen folgende Merkmale:
+
+- **Demografische Merkmale:** Alter, Geschlecht, Familienstand, Einkommen, Beruf, Bildungsstand
+- **Geografische Merkmale:** Region, Stadtgröße, Land
+- **Psychografische Merkmale:** Werte, Lebensstil, Interessen, Hobbys
+- **Verhaltensmerkmale:** Kaufverhalten, Mediennutzung, Marken-Awareness
+
+Dies kann bspw. durch geziehlte Marktforschung geschehen, oder der Unterteilung des Marktes auf Basis gemeinsamer Merkmale
+
+Beispielzielgruppen:
 
 ### B2B (Business-to-Business)
 <!-- TODO: B2B ergänzen -->

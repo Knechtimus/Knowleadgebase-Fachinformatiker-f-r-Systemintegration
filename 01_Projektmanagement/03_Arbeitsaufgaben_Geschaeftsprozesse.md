@@ -55,26 +55,53 @@ Ziel ist idr. die schnellstmögliche Widerherstellung der Service-Leistung
 
 Definitionen nach ITIL 4:
 **Incident:** "Ein nicht geplante Unterbrechung eines Service oder eine Qualitätsminderung eines Services."
-**Incident Management:** "Der Zweck der Incident Management Practice ist das Minimieren der negativen Auswirkungen von Incidents, indem der normale Servicebetrieb schnellstmöglich widerhergestellt wird
+**Incident Management:** "Der Zweck der Incident Management Practice ist das Minimieren der negativen Auswirkungen von Incidents, indem der normale Servicebetrieb schnellstmöglich widerhergestellt wird."
+
+Incidents werden mit Hilfe von Trouble Tickets dokumentiert. Für die Entgegennahme und Überwachung der Tickets ist ein Servicedesk zuständig
 
 ## Ticketsystem
 
+Ein Ticketsystem bildet meist in der IT ein zentrales Werkzeug, welches die Verwaltung und Nachverfolgung von Aufgaben, Fehlern und Supportanfragen optimiert.
+Jedes Anliegen wird dort erfasst und beinhalten Informationen wie Problembeschreibung, Priorität, Zuweisung und Fristen.
+
 | Art | Verwendung | Funktion | Beispiel |
 |-----|------------|----------|----------|
-| Helpdesk | | | |
-| Bug-Tracking | | | |
+| Helpdesk | IT-Abteilung oder Kundensupport | Nutzer melden Probleme oder Anfragen, die dann bearbeitet werden | Zanmad, Zendesk, Jira |
+| Bug-Tracking | Softwareentwicklung | Bugs während Entwicklung, Fehlerberichte als Ticket im System | Jira, Bugzilla |
 
 ## Support-Level
 
+**Supportanfragen:** Meist technische Probleme oder Fehler mit einem Produkt, einer Software 
+oder einem System. Also Fehlerbehebungen wie “Das Programm stürzt ab”, 
+“Fehlermeldungen”, oder Benutzerfragen wie “Wie kann ich eine Datei exportieren?”
+**Serviceanfragen:** Allgemeine Anfragen oder Anfragen zu Dienstleistungen eines 
+Unternehmens. Bereitstellung von Informationen oder Inanspruchnahme von Serviceleistungen.
+Beide Arten von Anfragen erfordern unterschiedliche Ansätze und können oft über ein 
+Ticketsystem verwaltet werden, jedoch mit unterschiedlichen Prozessen und Prioritäten.
+**Beispielweise wird das durch drei Supportlevels gemacht:**
+
 | Level | Beschreibung |
 |-------|--------------|
-| 1st Level | |
-| 2nd Level | |
-| 3rd Level | |
+| **1st Level** | Anfragen und Beschwerden von Kunden hinsichtlich der IT, schnelle Beseitigung von Störungen. Erste Anlaufstelle für alle eingehenden Anfragen |
+| **2nd Level** | Bei Komplexeren Problemen, sehr lösungsorientierte Vorgehensweise, ab hier z.B. auch externe Dienstleister|
+| **3rd Level** | Anspruchsvolle Probleme, hohe fachliche Kompetenzen bei schwerwiegenden Problemen |
 
 ## KI-Unterstützung
 
-<!-- TODO: KI-Unterstützung in IT-Prozessen ergänzen -->
+Die KI-Unterstützung in Geschäfts- und Leistungsprozessen kann dafür benutzt werden, die 
+Effizienz erheblich zu steigern, indem sie viele Aufgaben automatisiert, und wertvolle Analysen 
+und Vorhersagen bietet. 
+Sie kann besonders in Bereichen wie der Prozessoptimierung, Datenanalyse und 
+Automatisierung von Routineaufgaben sehr hilfreich sein. Allerdings müssen Unternehmen bei 
+der Implementierung von KI auch Herausforderungen wie die Datenqualität, Akzeptanz und 
+Integration berücksichtigen.
+11 von 69
+Ein gutes Beispiel sind hier Self-Service Portale, die einen Chatbot verwenden. Bekannt ist das 
+z. B. Bei DHL, zur Statusabfrage oder Problembehandlung von Zustellungen, diese leiten dann 
+auch einen an die Richtige Fachabteilung, oder können Probleme Kategorisieren und 
+Priorisieren.
+DIes spart oft massiven Aufwand, der sonst von einem Menschen erledigt werden müsste.
+
 
 ## Prüfungsrelevante Inhalte
 
