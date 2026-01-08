@@ -13,87 +13,117 @@
 
 ## Grundlagen
 
+
+
+
 <!-- TODO: Grundlegende Konzepte ergänzen -->
 
 ## Wichtige Begriffe
 
-| Begriff | Definition |
-|---------|------------|
-| Hardware | |
-| Software | |
-| Cloud | |
-| IaaS | |
-| SaaS | |
-| PaaS | |
-| DaaS | |
+| Begriff   | Definition                                                                 |
+|-----------|----------------------------------------------------------------------------|
+| Hardware  | Physische Komponenten eines IT-Systems, z. B. Computer, Server, Router.    |
+| Software  | Programme und Betriebssysteme, die auf Hardware ausgeführt werden.         |
+| Cloud     | IT-Ressourcen, die über das Internet bereitgestellt und genutzt werden.    |
+| IaaS      | Infrastruktur als Service: Bereitstellung von Hardware-Ressourcen online.  |
+| SaaS      | Software als Service: Nutzung von Anwendungen über das Internet.           |
+| PaaS      | Plattform als Service: Entwicklungs- und Laufzeitumgebung online.          |
+| DaaS      | Desktop als Service: Virtuelle Desktops aus der Cloud.                     |
 
-## Funktionale, ökonomische, ökologische Aspekte
 
-<!-- TODO: Aspekte ergänzen -->
+## Funktionale, ökonomische und ökologische Aspekte
+
+Um marktgängige IT-Systeme sinnvoll vergleichen und bewerten zu können, lohnt sich ein Blick auf drei zentrale Bereiche:
+
+**Funktionale Aspekte:**  
+Hier geht es um die Leistungsmerkmale und Nutzungseigenschaften eines Systems. Wichtige Kriterien sind Performance, Kompatibilität, Skalierbarkeit, Flexibilität sowie Zuverlässigkeit und Verfügbarkeit. Ein System sollte nicht nur schnell und leistungsfähig sein, sondern auch gut mit anderen Komponenten zusammenarbeiten und sich an veränderte Anforderungen anpassen lassen.
+
+**Ökonomische Aspekte:**  
+Die Wirtschaftlichkeit spielt eine große Rolle. Dazu zählen die Anschaffungskosten, laufende Betriebskosten, das Kosten-Nutzen-Verhältnis (ROI), sowie die Entscheidung zwischen Cloud- und On-Premise-Modellen. Effiziente IT-Systeme helfen, Ressourcen optimal einzusetzen und Kosten zu sparen.
+
+**Ökologische Aspekte:**  
+Nachhaltigkeit und Umweltverträglichkeit werden immer wichtiger. Energieeffizienz (z. B. Energy Star, Green IT), Recyclingfähigkeit, lange Lebensdauer und Reparierbarkeit (z. B. iFixit-Score) sind entscheidende Faktoren. Auch die Nutzung von Ökostrom und ein sparsamer Wasserverbrauch in Kühlsystemen tragen dazu bei, IT umweltfreundlicher zu gestalten.
+
+Mit diesen Aspekten im Blick fällt die Auswahl eines passenden IT-Systems leichter – und sorgt für einen nachhaltigen und wirtschaftlichen Einsatz.
 
 ## Hardwareprodukte
 
-| Kategorie | Komponente | Funktion |
-|-----------|------------|----------|
-| Recheneinheit | CPU | |
-| Hauptplatine | Motherboard | |
-| Arbeitsspeicher | RAM | |
-| Massenspeicher | SSD | |
-| Massenspeicher | HDD | |
-| Grafikkarte | GPU | |
-| Netzteil | PSU | |
-| Gehäuse | Case | |
+| Kategorie              | Komponente                | Funktion                                                                                  |
+|------------------------|---------------------------|-------------------------------------------------------------------------------------------|
+| Recheneinheit          | CPU (Prozessor)           | Führt Berechnungen aus, steuert das gesamte System.                                       |
+| Hauptplatine           | Motherboard               | Verbindet alle Komponenten, enthält Chipsätze zur Kommunikation.                          |
+| Arbeitsspeicher        | RAM (Speicher)            | Kurzzeitspeicher für laufende Prozesse, sorgt für schnelle Datenverarbeitung.             |
+| Datenspeicher          | HDD (Festplatte)          | Magnetischer Speicher für große Datenmengen, günstiger aber langsamer.                    |
+|                        | SSD (Solid State Drive)   | Schneller Flash-Speicher für Betriebssystem und Programme.                                |
+| Grafikverarbeitung     | GPU (Grafikkarte)         | Berechnet und rendert Grafiken, entlastet die CPU bei visuellen Aufgaben.                 |
+| Stromversorgung        | Netzteil (PSU)            | Wandelt Wechselstrom in Gleichstrom um und versorgt das System mit Energie.               |
+| Peripherie             | Tastatur & Maus           | Eingabegeräte zur Steuerung des Computers.                                                |
+|                        | Monitor/Display           | Gibt visuelle Informationen aus, z. B. für Benutzeroberflächen.                          |
+|                        | Drucker & Scanner         | Gibt Dokumente aus oder digitalisiert sie.                                                |
+| Netzwerk & Kommunikation| Netzwerkkarte (NIC)      | Verbindet den PC mit Netzwerken über LAN oder WLAN.                                       |
+|                        | Modem & Router            | Erlaubt Zugang zum Internet und verbindet Geräte im Netzwerk.                             |
+| Sensoren               | Temperatursensoren        | Überwachen Wärmeentwicklung in CPU/GPU für Kühlung.                                       |
+|                        | Bewegungssensoren         | Erkennen Bewegungen, z. B. in Smartphones oder für Sicherheitszwecke.                     |
+|                        | Lichtsensoren             | Passen Bildschirmhelligkeit automatisch an.                                               |
+|                        | Fingerabdruckscanner      | Biometrische Sicherheit für Authentifizierung.                                            |
 
-## Netzwerkkomponenten
+## Netzwerkkomponenten 
 
-| Komponente | Funktion |
-|------------|----------|
-| Router | |
-| Switch | |
-| Gateway | |
-| Access Point | |
-| Firewall | |
-| NAS | |
-| Modem | |
+| Komponente   | Funktion                                                        |
+|--------------|-----------------------------------------------------------------|
+| Router       | Verbindet Netzwerke und leitet Datenpakete weiter.              |
+| Switch       | Verteilt Datenpakete innerhalb eines lokalen Netzwerks.         |
+| Gateway      | Verbindet unterschiedliche Netzwerktechnologien.                |
+| Access Point | Ermöglicht drahtlosen Netzwerkzugang (WLAN).                    |
+| Firewall     | Schützt vor unerlaubtem Zugriff und Angriffen.                  |
+| NAS          | Netzwerkgebundener Speicher für zentrale Datenablage.           |
+| Modem        | Wandelt digitale in analoge Signale und umgekehrt.              |
 
 ## Softwarearten
 
-| Art | Beschreibung | Beispiele |
-|-----|--------------|-----------|
-| Standardsoftware | | |
-| Branchensoftware | | |
-| Individualsoftware | | |
-| Systemsoftware | | |
+| Art              | Beschreibung                                      | Beispiele                |
+|------------------|---------------------------------------------------|--------------------------|
+| Standardsoftware | Allgemein nutzbare Programme                      | MS Office, Adobe Reader  |
+| Branchensoftware | Speziell für bestimmte Branchen entwickelt        | Arztpraxissoftware       |
+| Individualsoftware| Maßgeschneiderte Lösungen für spezielle Anforderungen | ERP-Systeme, Eigenentwicklungen |
+| Systemsoftware   | Betriebssysteme und grundlegende Systemprogramme  | Windows, Linux           |
 
 ## Cloud-Lösungen
 
-| Service-Modell | Beschreibung | Beispiele |
-|----------------|--------------|-----------|
-| IaaS | Infrastructure as a Service | |
-| SaaS | Software as a Service | |
-| DaaS | Desktop as a Service | |
-| PaaS | Platform as a Service | |
+| Service-Modell | Beschreibung                                 | Beispiele                |
+|----------------|----------------------------------------------|--------------------------|
+| IaaS           | Infrastruktur wie Server, Speicher, Netzwerk | AWS EC2, Microsoft Azure |
+| SaaS           | Softwareanwendungen über das Internet        | Office 365, Google Docs  |
+| DaaS           | Virtuelle Desktops aus der Cloud             | Citrix Virtual Apps      |
+| PaaS           | Entwicklungsplattformen und Tools            | Heroku, Google App Engine|
 
 ## KI-Systeme
 
-| Technologie | Beschreibung |
-|-------------|--------------|
-| Maschinelles Lernen | |
-| Deep Learning | |
-| NLP (Natural Language Processing) | |
-| Computer Vision | |
+| Technologie                | Beschreibung                                         |
+|----------------------------|------------------------------------------------------|
+| Maschinelles Lernen        | Systeme lernen aus Daten und verbessern sich selbst. |
+| Deep Learning              | Mehrschichtige neuronale Netze für komplexe Aufgaben.|
+| NLP (Natural Language Processing) | Verarbeitung und Analyse natürlicher Sprache.  |
+| Computer Vision            | Automatische Auswertung und Erkennung von Bildern.   |
 
 ## Prüfungsrelevante Inhalte
 
-<!-- TODO: Wichtige Prüfungspunkte ergänzen -->
+- Unterschiede und Einsatzbereiche von Cloud-Modellen
+- Hardware- und Netzwerkkomponenten identifizieren und zuordnen
+- Softwarearten und deren Anwendung
+- Funktionale, ökonomische und ökologische Aspekte bewerten
+- Grundlagen von KI-Systemen verstehen
 
 ## Beispiele / Praxisbezug
 
-<!-- TODO: Praktische Beispiele ergänzen -->
+- Auswahl eines passenden IT-Systems für ein Unternehmen
+- Vergleich von Cloud-Lösungen für verschiedene Anforderungen
+- Einrichtung eines Heimnetzwerks mit Router und NAS
+- Einsatz von Standard- und Individualsoftware im Betrieb
 
 ## Zusammenfassung
 
-<!-- TODO: Kurze Zusammenfassung -->
+Marktgängige IT-Systeme bestehen aus Hardware, Software und Netzwerkkomponenten. Cloud-Lösungen und KI-Systeme gewinnen zunehmend an Bedeutung. Funktionale, ökonomische und ökologische Aspekte sind bei der Auswahl und Nutzung von IT-Systemen zu berücksichtigen.
 
 ## Prüfungsfragen zum Üben
 
