@@ -185,7 +185,6 @@ Diese Maßnahmen stellen sicher, dass IT-Systeme möglichst barrierefrei gestalt
 ## Energieeffizienz-Gütesiegel
 
 ![Energieeffizienz-Gütesiegel](Energieeffizienz-Guetesiegel.png)
-<!-- TODO: Gütesiegel ergänzen (Energy Star, EU-Energielabel, Blauer Engel, etc.) -->
 
 ## Übertragungsraten
 
@@ -215,6 +214,11 @@ Bei der digitalen Datenübertagung spielen **Übertragungsraten und -zeiten** ei
 
 $$ Zeit(s) = \frac{Datenmenge(Bit)}{Übertragungsrate(Bit/s)} $$
 </div>
+
+**Beispiel:**
+*1 GiB große Datei bei 50 Mbit/s*
+
+(1,074 x 8 x 109) / (50 x 106) = 171,8 Sekunden ~ 2,86 Minuten
 
 ## Elektrotechnik Formeln
 
