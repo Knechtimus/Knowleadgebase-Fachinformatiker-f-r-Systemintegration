@@ -24,21 +24,60 @@ Die Wirtschaftlichkeit beschreibt das Verhältnis zwischen dem eingesetzten Aufw
 
 ## Kostenarten
 
-| Kostenart                | Beschreibung                                              | Beispiele                       |
-|--------------------------|----------------------------------------------------------|---------------------------------|
-| Fixkosten                | Unabhängig von der Produktionsmenge, fallen immer an.    | Miete, Gehälter                 |
-| Variable Kosten          | Abhängig von der Produktionsmenge oder Nutzung.          | Materialverbrauch, Stromkosten  |
-| Einmalkosten             | Fallen einmalig an, z. B. bei Anschaffung.               | Kauf eines Servers              |
-| Laufende Kosten          | Wiederkehrende Kosten während des Betriebs.              | Wartung, Lizenzgebühren         |
-| TCO (Total Cost of Ownership) | Gesamtkosten über den gesamten Lebenszyklus eines Produkts. | Anschaffung, Betrieb, Entsorgung |
+| Kostenart                  | Beschreibung                                                                                         | Beispiele                                 |
+|----------------------------|-----------------------------------------------------------------------------------------------------|-------------------------------------------|
+| **Fixkosten**              | Fallen unabhängig von der Produktionsmenge immer an.                                                | Miete, Gehälter, Versicherung             |
+| **Variable Kosten**        | Abhängig von Produktionsmenge oder Nutzung.                                                         | Materialverbrauch, Stromkosten, Transport |
+| **Einmalkosten**           | Entstehen einmalig, z. B. bei der Anschaffung.                                                      | Kauf eines Servers, Einrichtungskosten    |
+| **Laufende Kosten**        | Wiederkehrende Kosten während des Betriebs.                                                         | Wartung, Lizenzgebühren, Energie          |
+| **Anschaffungskosten**     | Einmalige Kosten für den Erwerb von Vermögenswerten oder die Einrichtung eines Projekts.            | Maschinen, Fahrzeuge, Software            |
+| **Betriebskosten**         | Laufende Kosten für den Betrieb und die Verwaltung.                                                 | Miete, Gehälter, Wartung, Verwaltung      |
+| **Lizenzkosten**           | Kosten für den Erwerb und die Nutzung von Lizenzen, Patenten oder Software.                         | Softwarelizenzen, Markenrechte            |
+| **Finanzierungskosten**    | Kosten, die durch die Finanzierung entstehen, z. B. Zinsen oder Gebühren für Kredite/Darlehen.      | Zinsen, Kreditgebühren                    |
+| **TCO (Total Cost of Ownership)** | Gesamtkosten über den gesamten Lebenszyklus eines Produkts oder einer Investition.             | Anschaffung, Betrieb, Wartung, Entsorgung |
+
+## Kostenvergleich
+
+| Modell | Vorteil | Nachteile |
+|---|---|---|
+|Leasing| Planbare Raten, keine hohe Anfangsinvestition| keine Eigentumsrechte, langfristige Kosten|
+|Kauf| Eigentum, keine laufenden Verpflichtungen| hohe Anfangsinvestion, Wertverlust|
+| Finanzierung | Eigentum nach Abzahlung, flexiblere Zahlung | Zinsen und Gebühren, Kreditabhängigkeit|
+| pay per use| Kosten nur bei tatsächlicher Nutzung | Unvorhersehbare kosten, langfristig teurer|
 
 ## Preis-Leistungs-Verhältnis
 
-Das Preis-Leistungs-Verhältnis bewertet, wie viel Leistung für einen bestimmten Preis geboten wird. Es hilft, verschiedene Angebote objektiv zu vergleichen und die wirtschaftlich sinnvollste Entscheidung zu treffen.
+Das **Preis-Leistungs-Verhältnis (PLV)** ist ein Begriff, der beschreibt, wie gut die Qualität eines
+Produkts oder einer Dienstleistung im Verhältnis zu ihrem Preis ist. Es hilft dabei, die Effektivität
+und den Wert eines Angebots zu bewerten. Ein gutes Preis-Leistungs-Verhältnis bedeutet, dass
+der Preis für das, was man bekommt, fair und gerechtfertigt ist.
+
+Wenn du einen Laptop für 500 € kaufst und er sehr leistungsfähig ist (hohe Qualität), hat er ein
+gutes Preis-Leistungs-Verhältnis. Wenn ein anderer Laptop für 1000 € mit ähnlicher Leistung
+verkauft wird, bietet der günstigere Laptop ein besseres Preis-Leistungs-Verhältnis, da du mehr
+für dein Geld bekommst.
+
+Ein **gutes Preis-Leistungs-Verhältnis** bedeutet also, dass du für den Preis, den du zahlst,
+eine hohe Qualität oder viel Nutzen erhältst, während ein **schlechtes Preis-LeistungsVerhältnis** darauf hindeutet, dass der Preis nicht gerechtfertigt ist, wenn man die erhaltene
+Leistung betrachtet.
 
 ## Nutzwertanalyse
+Die **Nutzwertanalyse** ist eine Methode zur systematischen Entscheidungsfindung, wenn mehrere Alternativen anhand verschiedener Kriterien bewertet werden müssen. Sie eignet sich besonders, wenn neben quantitativen auch qualitative Faktoren eine Rolle spielen.
 
-Die Nutzwertanalyse ist eine Methode zur Bewertung und Auswahl von Alternativen anhand verschiedener Kriterien. Sie wird häufig eingesetzt, um komplexe Entscheidungen zu strukturieren und nachvollziehbar zu machen.
+**Beispiel: Entscheidung für ein neues Firmenfahrzeug**
+
+| Kriterium           | Gewichtung (%) | Auto A (Bewertung) | Auto B (Bewertung) | Auto C (Bewertung) | Auto A (Punkte) | Auto B (Punkte) | Auto C (Punkte) |
+|---------------------|:--------------:|:------------------:|:------------------:|:------------------:|:---------------:|:---------------:|:---------------:|
+| Anschaffungskosten  |      30        |         8          |         6          |         7          |      2,4        |      1,8        |      2,1        |
+| Verbrauch           |      25        |         7          |         9          |         6          |      1,75       |      2,25       |      1,5        |
+| Sicherheit          |      20        |         9          |         8          |         7          |      1,8        |      1,6        |      1,4        |
+| Komfort             |      15        |         6          |         7          |         9          |      0,9        |      1,05       |      1,35       |
+| Umweltfreundlichkeit|      10        |         7          |         8          |         9          |      0,7        |      0,8        |      0,9        |
+| **Gesamtnutzwert**  |    **100**     |                   |                   |                   |   **7,55**      |   **7,5**       |   **7,25**      |
+
+**Interpretation:**  
+Auto A erzielt mit 7,55 den höchsten Gesamtnutzwert und wäre nach dieser Analyse die beste Wahl. Die Nutzwertanalyse macht die Entscheidungsfindung transparent und nachvollziehbar, da alle Kriterien und deren Gewichtung offen gelegt werden.
+
 
 **Schritte:**
 1. Kriterien festlegen
