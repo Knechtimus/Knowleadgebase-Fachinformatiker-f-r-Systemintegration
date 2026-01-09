@@ -87,7 +87,22 @@ Auto A erzielt mit 7,55 den höchsten Gesamtnutzwert und wäre nach dieser Analy
 
 ## Wertschöpfung
 
-Wertschöpfung bezeichnet den Mehrwert, der durch die Verarbeitung von Rohstoffen oder die Erbringung von Dienstleistungen entsteht. Sie ist ein zentraler Begriff in der Betriebswirtschaft und misst die wirtschaftliche Leistung eines Unternehmens.
+IT-Systeme leisten einen entscheidenden Beitrag zur Wertschöpfung, indem sie sowohl direkte Effizienzsteigerungen als auch indirekte Vorteile ermöglichen. Sie automatisieren Prozesse, beschleunigen die Informationsverarbeitung und verbessern die Ressourcennutzung. Indirekt steigern sie die Produkt- und Servicequalität, reduzieren Fehler und erhöhen die Kundenzufriedenheit. Zudem eröffnen IT-Systeme strategische Chancen, etwa durch neue Geschäftsmodelle, Märkte und Innovationen.
+
+Durch den Einsatz von IT können Unternehmen global agieren und ihre Wettbewerbsfähigkeit stärken. Der wahre Wert von IT zeigt sich nicht nur in kurzfristigen Kosteneinsparungen, sondern vor allem in langfristiger Effizienz, Innovation und strategischen Geschäftsmöglichkeiten.
+
+### Direkte und indirekte Vorteile von IT-Systemen
+
+| Vorteil                | Direkte Vorteile                                              | Indirekte Vorteile                                                      |
+|------------------------|--------------------------------------------------------------|-------------------------------------------------------------------------|
+| **Effizienzsteigerung**| Automatisierung von Prozessen, Zeitersparnis bei Routineaufgaben | Optimierte Abläufe, höhere Gesamtproduktivität                          |
+| **Fehlerreduktion**    | Minimierung menschlicher Fehler durch präzise Systemverarbeitung | Weniger Nacharbeit und Reklamationen, höhere Kundenzufriedenheit        |
+| **Schnellere Entscheidungsfindung** | Echtzeit-Informationen, schnelle Datenverarbeitung         | Bessere strategische Ausrichtung, flexiblere Reaktion auf Marktänderungen|
+| **Kostenreduktion**    | Senkung von Betriebskosten durch Prozessoptimierung und Automatisierung | Langfristige Einsparungen durch Skaleneffekte und bessere Ressourcennutzung |
+| **Verbesserte Kommunikation** | Effiziente interne Kommunikation (z. B. E-Mail, Chat)         | Bessere Zusammenarbeit, schnellere Projektumsetzung                     |
+| **Qualitätsverbesserung** | Präzisere Produktionssteuerung, höhere Produktqualität           | Stärkere Kundenbindung, Markentreue durch konsistente Qualität          |
+| **Wettbewerbsfähigkeit** | Schnellere Markteinführung neuer Produkte durch optimierte Prozesse | Neue Geschäftsmöglichkeiten und Innovationen durch digitale Transformation|
+
 
 ## Prüfungsrelevante Inhalte
 
