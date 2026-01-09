@@ -154,21 +154,65 @@
 ## Barrierefreiheit
 
 
+> **Barrierefreier Zugriff auf IT-Systeme am Arbeitsplatz**  
+> Der barrierefreie Zugriff auf IT-Systeme am Arbeitsplatz ist essenziell, um Menschen mit Einschränkungen die uneingeschränkte Nutzung von Hard- und Software zu ermöglichen. Durch verschiedene Einstellungsmöglichkeiten können Webseiten und Betriebssysteme individuell angepasst werden.
+
+**Zu den wichtigsten Funktionen gehören:**
+- **Zoom-Funktionen** zur Vergrößerung von Texten
+- **Hohe Kontrastmodi** und **Farbfilter**
+- **Anpassung von Schriftarten und -größen** für bessere Lesbarkeit
+
+**Weitere wichtige Aspekte:**
+- Unterstützung von **Screenreadern** wie NVDA oder JAWS
+- Möglichkeit, **Webseiten vollständig über die Tastatur** zu bedienen
+
+**Barrierefreie Funktionen in Betriebssystemen (z. B. Windows, macOS, Linux):**
+- Sprachausgabe
+- Bildschirmtastaturen
+- Diktierfunktionen
+
+**Spezielle Hardwarelösungen:**
+- Ergonomische Eingabegeräte
+- Braillezeilen
+
+**Standards und Richtlinien:**
+- **WCAG** (Web Content Accessibility Guidelines)
+- **BITV 2.0**
+
+Diese Maßnahmen stellen sicher, dass IT-Systeme möglichst barrierefrei gestaltet werden. So wird gewährleistet, dass alle Mitarbeitenden – unabhängig von ihren individuellen Einschränkungen – effizient und gleichberechtigt arbeiten können.
+ 
 
 ## Energieeffizienz-Gütesiegel
 
+![Energieeffizienz-Gütesiegel](Energieeffizienz-Guetesiegel.png)
 <!-- TODO: Gütesiegel ergänzen (Energy Star, EU-Energielabel, Blauer Engel, etc.) -->
 
 ## Übertragungsraten
 
-### Binär vs. Dezimal
+Bei der digitalen Datenübertagung spielen **Übertragungsraten und -zeiten** eine wichtige Rolle. Die Übertagungsrate wird meist in **Megabit pro Sekunde (Mbit/s)** oder **Gigabit pro Sekunde (Gbits/s)** angegeben und beschreibt die Menge an Daten, die pro Sekunde übertragen werden, kann. Die tatsächliche Übertragungszeit hängt von der verfügbaren Bandbreite sowie der Größe der zu übertragende Datei ab.
 
-| Einheit (Binär) | Wert | Einheit (Dezimal) | Wert |
-|-----------------|------|-------------------|------|
-| 1 KiB (Kibibyte) | 1024 Byte | 1 KB (Kilobyte) | 1000 Byte |
-| 1 MiB (Mebibyte) | 1024 KiB | 1 MB (Megabyte) | 1000 KB |
-| 1 GiB (Gibibyte) | 1024 MiB | 1 GB (Gigabyte) | 1000 MB |
-| 1 TiB (Tebibyte) | 1024 GiB | 1 TB (Terabyte) | 1000 GB |
+**Es gibt zwei unterschiedliche Systeme zur Angabe von Speichergrößen:**
+
+**Dezimalsystem (SI)**
+*vielfaches von 1.000 (Basis 10)*
+
+- 1 Kilobyte (KB) = 1.000 Byte
+- 1 Megabyte (MB) = 1.000 KB = 1.000.000 Byte
+- 1 Gigabyte (GB) = 1.000 MB = 1.000.000.000 Byte
+- 1 Terabyte (TB) = 1.000 GB = 1.000.000.000.000 Byte
+
+**Binärsystem (IEC)**
+*vielfaches von 1.024 (Basis 2)*
+
+- 1 Kibibyte (KiB) = 1.024 Byte
+- 1 Mebibyte (MiB) = 1.024 KiB = 1.048.576 Byte
+- 1 GiBibyte (GiB) = 1.024 MiB = 1.073.741.824 Byte
+- 1 tebibyte (TiB) = 1.024 GiB = 1.099.511.627.776 Byte
+
+**Die Berechnung der Übertragungszeit:**
+
+$ 1/2 $
+
 
 ## Elektrotechnik Formeln
 
