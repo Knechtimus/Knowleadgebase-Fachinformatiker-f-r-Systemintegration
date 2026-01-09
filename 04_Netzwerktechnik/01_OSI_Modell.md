@@ -32,6 +32,28 @@ Das OSI-Modell (Open Systems Interconnection Model) ist ein Referenzmodell zur B
 | 2       | Sicherung (Data Link)       | Ethernet, PPP, Switch-Protokolle  | Switch, Bridge        | Frame       |
 | 1       | Bitübertragung (Physical)   | Ethernet, DSL, WLAN, Kabel        | Hub, Repeater, Kabel  | Bit         |
 
+## Aufgaben der Schichten
+
+| Schicht | Aufgabe                                                                                 |
+|---------|----------------------------------------------------------------------------------------|
+| 7 Anwendung      | Stellt Netzwerkdienste für Anwendungen bereit (z.B. E-Mail, Webbrowser)           |
+| 6 Darstellung    | Übersetzt Datenformate, Verschlüsselung und Kompression                          |
+| 5 Sitzung        | Aufbau, Steuerung und Beendigung von Kommunikationssitzungen                     |
+| 4 Transport      | Zuverlässige Datenübertragung, Fehlererkennung und -behebung, Flusskontrolle     |
+| 3 Vermittlung    | Routing, logische Adressierung, Weiterleitung von Paketen                        |
+| 2 Sicherung      | Fehlererkennung/-korrektur, Rahmenbildung, MAC-Adressen                          |
+| 1 Bitübertragung | Übertragung von Bits über das physische Medium (Kabel, Funk)                     |
+
+## Unterschiede OSI-Modell & TCP/IP Modell
+
+| Merkmal           | OSI-Modell (7 Schichten)           | TCP/IP-Modell (4 Schichten)        |
+|-------------------|------------------------------------|------------------------------------|
+| Schichtenanzahl   | 7                                  | 4                                  |
+| Schichtennamen    | Anwendung, Darstellung, Sitzung, Transport, Vermittlung, Sicherung, Bitübertragung | Anwendung, Transport, Internet, Netzwerkzugriff |
+| Standardisierung  | Theoretisches Referenzmodell       | Praktisch implementiertes Modell   |
+| Protokollzuordnung| Strikte Zuordnung zu Schichten     | Protokolle oft über mehrere Schichten |
+| Verwendung        | Lehrzwecke, Verständnis            | Praktische Netzwerke (Internet)    |
+
 ## Prüfungsrelevante Inhalte
 
 - Die Aufgaben und Funktionen jeder Schicht kennen
