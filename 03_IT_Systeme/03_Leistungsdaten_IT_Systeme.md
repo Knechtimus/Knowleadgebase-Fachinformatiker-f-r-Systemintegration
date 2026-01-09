@@ -211,7 +211,7 @@ Bei der digitalen Datenübertagung spielen **Übertragungsraten und -zeiten** ei
 
 **Die Berechnung der Übertragungszeit:**
 
-$ 1/2 $
+$$ 1/over 2 $$
 
 
 ## Elektrotechnik Formeln
