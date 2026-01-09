@@ -211,7 +211,13 @@ Bei der digitalen Datenübertagung spielen **Übertragungsraten und -zeiten** ei
 
 **Die Berechnung der Übertragungszeit:**
 
-**$$ Zeit(s) = \frac{Datenmenge(Bit)}{Übertragungsrate(Bit/s)} $$**
+<div style="font-size:1.5em; font-weight:bold; margin: 1em 0;">
+
+$$
+\text{Zeit (s)} = \frac{\text{Datenmenge (Bit)}}{\text{Übertragungsrate (Bit/s)}}
+$$
+
+</div>
 
 
 ## Elektrotechnik Formeln
