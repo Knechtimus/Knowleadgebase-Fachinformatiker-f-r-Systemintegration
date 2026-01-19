@@ -23,9 +23,9 @@ Die klassische Einteilung erfolgt nach dem **morphologischen Schema von Stackelb
 
 | Nachfrager \ Anbieter | **Einer (Monopol)** | **Wenige (Oligopol)** | **Viele (Polypol)** |
 |------------------------|---------------------|------------------------|---------------------|
-| **Einer** | Bilaterales Monopol | Beschränktes Nachfragemonopol | Nachfragemonopol |
-| **Wenige** | Beschränktes Angebotsmonopol | Bilaterales Oligopol | Nachfrageoligopol |
-| **Viele** | **Angebotsmonopol** | **Angebotsoligopol** | **Polypol** |
+| **Einer** | **Monopol** | Beschränktes Nachfragemonopol | Nachfragemonopol |
+| **Wenige** | Beschränktes Angebotsmonopol | **Oligopol** | Nachfrageoligopol |
+| **Viele** | Angebotsmonopol | Angebotsoligopol | **Polypol** |
 
 ## Wichtige Marktformen im Detail
 
