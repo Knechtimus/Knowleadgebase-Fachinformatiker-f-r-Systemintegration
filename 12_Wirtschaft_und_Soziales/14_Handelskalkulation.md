@@ -75,5 +75,5 @@ Listeneinkaufspreis (netto)
 
 
 
-[Amortisationsrechnung](12_Wirtschaft_und_Soziales\04_Amortisationsrechnung.md)
+[Amortisationsrechnung](04_Amortisationsrechnung.md)
 
