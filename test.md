@@ -4,74 +4,6 @@
 Du bist ein erfahrener Unternehmensberater und Investor mit Expertise in der Skalierung von Startups und im Verfassen von investorenreifen Businessplänen. Deine Aufgabe ist es, einen überzeugenden, professionellen und logisch aufgebauten Businessplan für mein neues Unternehmen zu erstellen.
 
 ## ANFORDERUNGEN AN DIE BUSINESSPLAN-KAPITEL
-1 Zusammenfassung 1
-1 Produkt/
-Dienstleistung 1
-1 Gründerteam 1
-1 Marktanalyse 1
-1 Marketing 1
-1 unternehmen/
-Organisation 1
-1 Finanzplanung/
-Finanzierung 1
-Gesamtseitenzahl
-1. STUFE
-Idee und
-Gründerteam
-■ Produkt/Dienstleistung
-■ Gründerteam
-■ Nachhaltigkeit
-1
-■ Produktbeschreibung
-■ Kundennutzen
-■ Zielgruppen(n)
-■ Entwicklungsstand
-3-7
-■ Gründerteam und
-Kompetenzen
-■ Schließen von Lücken
-■ Schlüsselpersonen
-■ Einkommen der
-Gründungsmitglieder
-2-5
-6-13
-2.STUFE
-Marktanalyse und
-Marketing
-□ Produkt/Dienstleistung
-□Gründerteam
-□ Nachhaltigkeit
-■ Marktanalyse
-■ Marketing
-1- 2
-□ Produktbeschreibung
-□ Kundennutzen
-□Zielgruppen(n)
-□ Entwicklungsstand
-3-7
-□Gründerteam und
-Kompetenzen
-□Schließen von Lücken
-□ Schlüsselpersonen
-□Einkommen der
-Gründungsmitglieder
-2-5
-■ Beschreibung des
-Gesamtmarktes
-■ Marktsegmentierung
-und Marktpotenzial
-■ Wettbewerbsumfeld
-2-5
-■ Produktpolitik
-■ Preispolitik
-■ Kommunikationspolitik
-■ Vertriebspolitik
-2- 6
-10-22
-■ Schwerpunkte der Bearbeitung je stufe □zu bearbeitende Kapitel aus der Vorstufe
-3.STUFE
-Unternehmen und
-Finanzplanung
 □ Produkt/Dienstleistung
 □ Gründerteam
 □ Nachhaltigkeit
@@ -81,30 +13,30 @@ Finanzplanung
 Organisation
 ■ Finanzplanung/
 Finanzierung
-2-3
+2-3(seiten)
 □ Produktbeschreibung
 □ Kundennutzen
 □ Zielgruppen(n)
 □ Entwicklungsstand
-3-7
+3-7(Seiten)
 □ Gründerteam und
 Kompetenzen
 □ Schließen von Lücken
 □ Schlüsselpersonen
 □ Einkommen der
 Gründungsmitglieder
-2-5
+2-5(seiten)
 □ Beschreibung des
 Gesamtmarktes
 □ Marktse gmentierung
 und Marktpotenzial
 □ Wettbewerbsumfeld
-2-5
+2-5(seiten)
 □ Produktpolitik
 □ Preispolitik
 □ Kommunikationspolitik
 □ Vertriebspolitik
-2- 6
+2- 6(seiten)
 ■ Geschäftssystem/
 Kerngeschäft
 ■Organisation
@@ -113,186 +45,16 @@ Kerngeschäft
 Geschäftsführung,
 Eigentumsverhältnisse
 ■Standort
-3-6
+3-6(seiten)
 ■ Finanzplanung
 ■ Finanzierung des
 Kapitalbedarfs
-3-6
-17-35
+3-6(seiten)
 
-## Übersicht & Executive Summary
 
-1. **Unternehmensbeschreibung**
-   - Wie lautet der offizielle Name und die Mission von 141-Solution?
-   - Beschreiben Sie Ihr Geschäftskonzept in 3-5 Sätzen
-   - Welches Problem löst 141-Solution konkret?
-   - Wer ist die Zielgruppe und warum braucht diese die Lösung?
+Insgesamt = 17-35 Seiten
+#
 
-2. **Besonderheit & Innovation**
-   - Was macht 141-Solution einzigartig und anders als bestehende Lösungen?
-   - Welche Wettbewerbsvorteile haben Sie?
-   - Gibt es bereits Patente oder Schutzrechte?
-
----
-
-## Marktanalyse
-
-3. **Marktgröße & Potential**
-   - Wie groß ist der adressierbare Markt (TAM - Total Addressable Market)?
-   - Wie ist die aktuelle Marktentwicklung?
-   - In welchen Regionen/Märkten soll zunächst tätig sein?
-
-4. **Zielmarkt & Kundensegmente**
-   - Wer sind Ihre primären Kundensegmente?
-   - Wie groß ist das TAM für Ihr primäres Segment?
-   - Welche Kaufkraft und Kaufentscheidungsprozesse haben diese Kunden?
-
-5. **Wettbewerbsanalyse**
-   - Wer sind Ihre direkten und indirekten Konkurrenten?
-   - Wie positionieren Sie sich gegenüber dem Wettbewerb?
-   - Was sind Stärken und Schwächen der Konkurrenz?
-
-6. **Markttrends**
-   - Welche Trends treiben Ihren Markt?
-   - Wie profitiert 141-Solution von diesen Trends?
-
----
-
-## Geschäftsmodell
-
-7. **Erlösmodell**
-   - Wie verdienen Sie Geld? (z.B. B2B SaaS, Lizenzgebühren, Provisionen, etc.)
-   - Wie ist Ihre Pricing-Strategie?
-   - Welche Gewinnmargen erwarten Sie?
-
-8. **Kundenakquisition**
-   - Wie gewinnen Sie Kunden?
-   - Welche Sales- und Marketing-Kanäle nutzen Sie?
-   - Was sind die geschätzten Kundenakquisitionskosten (CAC)?
-   - Wie ist die erwartete Kundenlebensdauer (LTV)?
-
-9. **Skalierbarkeit**
-   - Wie ist Ihr Geschäftsmodell skalierbar?
-   - Welche Ressourcen sind nötig, um zu wachsen?
-
----
-
-## Produkt & Dienstleistung
-
-10. **Produktbeschreibung**
-    - Beschreiben Sie Ihr Produkt/Ihre Dienstleistung detailliert
-    - Was ist der aktuelle Entwicklungsstand? (Idee, MVP, Beta, Live)
-    - Welche Funktionen sind geplant?
-
-11. **Entwicklungsroadmap**
-    - Was sind die nächsten Entwicklungsschritte (12 Monate)?
-    - Welche Ressourcen sind hierfür nötig?
-    - Welche Meilensteine planen Sie?
-
-12. **Intellectual Property & Regulierung**
-    - Gibt es regulatorische Hürden?
-    - Wie schützen Sie Ihre IP?
-
----
-
-## Team & Organisation
-
-13. **Gründerteam**
-    - Wer sind die Gründer? (Namen, Hintergrund, Expertise)
-    - Welche relevante Erfahrung haben die Gründer?
-    - Warum ist dieses Team die richtige Besetzung für dieses Projekt?
-
-14. **Organisationsstruktur**
-    - Wie ist Ihr Team aktuell strukturiert?
-    - Welche Positionen sind kritisch für den Erfolg?
-    - Welche Rollen müssen noch besetzt werden?
-
-15. **Beirat/Advisory Board**
-    - Gibt es externe Berater oder Mentoren?
-    - Welches Netzwerk nutzen Sie?
-
----
-
-## Finanzplanung
-
-16. **Finanzierungsbedarf**
-    - Wie viel Kapital benötigen Sie insgesamt?
-    - Wie ist die Kapitalverteilung (Personal, Marketing, Entwicklung, etc.)?
-    - Wie lange reicht das Kapital (Runway)?
-
-17. **Finanzielle Prognosen**
-    - Erstellen Sie eine 3-Jahres-Prognose (Umsatz, Kosten, Gewinn/Verlust)
-    - Wann ist Break-Even erreicht?
-    - Welche KPIs sind für Ihr Geschäftsmodell relevant?
-
-18. **Finanzierungsstrategie**
-    - Welche Finanzierungsquellen betrachten Sie? (z.B. Eigenkapital, Kreditfinanzierung, Förderung, VC, etc.)
-    - Haben Sie bereits Investoren/Investitionen akquiriert?
-    - Welche Exit-Szenarien sind realistisch?
-
----
-
-## Umsetzung & Strategie
-
-19. **Go-to-Market Strategie**
-    - Wie bringen Sie das Produkt auf den Markt?
-    - Was ist Ihre Strategie für die ersten 6-12 Monate?
-
-20. **Risiken & Mitigation**
-    - Was sind die größten Risiken für Ihr Projekt?
-    - Wie mitigieren Sie diese Risiken?
-
-21. **Erfolgskritische Faktoren**
-    - Was sind die Top 3-5 kritischen Erfolgsfaktoren?
-    - Wie messen Sie Erfolg?
-
-22. **Meilensteine & Zeitplan**
-    - Welche Meilensteine planen Sie für die nächsten 12-24 Monate?
-    - Welche Ziele müssen in den ersten 3 Monaten erreicht werden?
-
----
-
-## Vision & Ausblick
-
-23. **Langfristige Vision**
-    - Wo soll 141-Solution in 5 Jahren stehen?
-    - Wie ist das langfristige Wachstumspotenzial?
-
-24. **Gesellschaftlicher Mehrwert**
-    - Welchen positiven Impact hat 141-Solution auf die Gesellschaft/Umwelt?
-    - Gibt es Nachhaltigkeitsaspekte?
-
----
-
-## Zusätzliche Informationen
-
-25. **Besonderheiten & Hinweise**
-    - Gibt es weitere Informationen oder Besonderheiten, die relevant sind?
-    - Welche Medienberichterstattung oder Auszeichnungen gibt es bereits?
-
-26. **Kontakt & Nächste Schritte**
-    - Kontaktdaten der Gründer
-    - Zeitrahmen für Termine/Pitches
-    - Welche Unterstützung oder Feedback suchen Sie vom Wettbewerb?
-
----
-
-## Hinweise zur Beantwortung
-
-**Für Gründerwettbewerbe relevante Tipps:**
-
-- **Sei konkret**: Verwende Zahlen und Fakten statt vagen Aussagen
-- **Realistische Annahmen**: Belege Annahmen mit Marktdaten
-- **Differenzierung**: Betone klar, warum deine Lösung besser ist
-- **Team-Fokus**: Investoren investieren in Menschen – zeige dein starkes Team
-- **Marktvalidierung**: Zeige, dass du mit Kunden gesprochen hast (Interviews, MVP-Feedback)
-- **Finanzielle Solidität**: Realistische Prognosen mit nachvollziehbaren Annahmen
-- **Visionen + Machbarkeit**: Balance zwischen Ambition und Realismus
-- **Narrative**: Erzähle eine überzeugende Geschichte, die Jury und Investoren mitreißt
-
----
-
-**Viel Erfolg beim Gründerwettbewerb! 🚀**
 
 
 
